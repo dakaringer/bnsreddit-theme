@@ -1,0 +1,98 @@
+.organic-listing {
+    background: none !important;
+    margin: 0;
+    border: none;
+
+    .link.promotedlink.promoted,
+    .link.promotedlink.external {
+        background: $ui-color-light !important;
+        margin-bottom: 2rem;
+        padding: 1rem 0;
+        border: none !important;
+    }
+}
+
+.thing {
+    padding: 1.2rem 0;
+    margin: 0;
+    transition: all 0.2s;
+    border-bottom: solid 0.1rem rgba(150, 150, 150, 0.2) !important;
+
+    &.link:hover {
+        background: $ui-color-hover-light;
+    }
+
+    .title {
+        color: dodgerblue;
+        display: flex;
+        align-items: center;
+
+        &:visited {
+            color: slategrey;
+        }
+    }
+
+    .expando-button {
+        display: inline-block;
+        vertical-align: middle;
+        float: none;
+    }
+
+    .tagline {
+        margin-top: 0.5rem;
+        display: inline-block;
+    }
+
+    .flat-list {
+        margin-top: 0.2rem;
+    }
+
+    .midcol {
+        width: 3rem !important;
+        margin-right: 1rem;
+        margin-left: 1.5rem;
+    }
+
+    .thumbnail {
+        margin: 0 1rem;
+        max-height: 6rem;
+
+        &.self {
+            background-image: url(%%default-thumb%%);
+            background-position: 0px 0px;
+            background-repeat: no-repeat;
+            height: 50px;
+        }
+    }
+
+    &.link.last-clicked {
+        border: none;
+        background: none;
+    }
+
+    .voteWeight {
+        background: none !important;
+    }
+}
+
+.nav-buttons {
+    text-transform: capitalize;
+
+    a {
+        border: none;
+        background: none;
+        text-transform: capitalize;
+    }
+
+    .nextprev a:hover,
+    .next-suggestions a:hover {
+        border: none;
+        background: none;
+    }
+}
+
+.RES-keyNav-activeElement,
+.RES-keyNav-activeElement .md-container {
+    background: none !important;
+    border-right: solid 0.1rem darkslategray;
+}

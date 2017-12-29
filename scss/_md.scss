@@ -1,0 +1,22 @@
+.md:not(#BigPreview) {
+    color: $text-color-light;
+
+    .-lists,
+    ul,
+    ol {
+        padding-left: 2rem;
+    }
+
+    blockquote,
+    del {
+        color: #777;
+    }
+
+    a {
+        color: dodgerblue;
+
+        &:hover {
+            color: deepskyblue;
+        }
+    }
+}

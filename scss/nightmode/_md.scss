@@ -1,0 +1,10 @@
+.md:not(#BigPreview) {
+    color: $text-color-dark;
+}
+
+.side .titlebox form.flairtoggle,
+.trophy-area .content,
+.side .md ol,
+.side .md ul {
+    background: none;
+}

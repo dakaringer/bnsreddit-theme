@@ -1,0 +1,36 @@
+a.author {
+    color: dodgerblue;
+}
+
+.res-userHighlight {
+    .tagline a.author.moderator,
+    .crosspost-preview-tagline a.author.moderator {
+        background: none !important;
+        color: limegreen !important;
+
+        &:hover {
+            background: none !important;
+        }
+    }
+
+    .tagline a.author.submitter,
+    .crosspost-preview-tagline a.author.submitter {
+        background: none !important;
+        color: skyblue !important;
+
+        &:hover {
+            background: none !important;
+        }
+    }
+}
+
+.tagline .moderator,
+.green,
+.search-result-meta .moderator {
+    color: limegreen;
+}
+
+.tagline .submitter,
+.search-result-meta .submitter {
+    color: skyblue;
+}

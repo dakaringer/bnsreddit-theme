@@ -1,0 +1,49 @@
+.side {
+    .spacer {
+        & > div {
+            background: $ui-color-dark;
+        }
+
+        .login-form-side {
+            background: $ui-color-dark;
+        }
+
+        .titlebox {
+            .tagline {
+                .flairselector {
+                    border-color: $text-color-dark;
+                    background: $ui-color-dark;
+
+                    a {
+                        color: skyblue !important;
+                    }
+                }
+
+                .flairoptionpane {
+                    ul {
+                        li {
+                            &:hover {
+                                background: $ui-color-hover-dark;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#search {
+    input[type='text'] {
+        color: $text-color-dark !important;
+        background: $ui-color-dark;
+    }
+
+    #searchexpando {
+        background: rgba(20, 20, 20, 1);
+
+        label {
+            color: $text-color-dark;
+        }
+    }
+}

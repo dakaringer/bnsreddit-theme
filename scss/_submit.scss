@@ -1,0 +1,73 @@
+.submit.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none !important;
+
+    .info-notice {
+        background: $ui-color-light;
+        border: none;
+    }
+}
+
+.formtabs-content {
+    border: none;
+}
+
+#link-desc,
+#text-desc,
+#reddit-field {
+    display: none !important;
+}
+
+.roundfield {
+    background: $ui-color-light;
+    border: none;
+    border-radius: 0.2rem;
+
+    #suggested-reddits {
+        display: none;
+    }
+
+    input[type='text'],
+    input[type='url'] {
+        width: 100%;
+    }
+}
+
+#newlink-with-image-upload .image-upload-drop-target {
+    background: $ui-color-hover-light;
+}
+
+.linefield,
+.linefield.mobile {
+    background: $ui-color-light;
+    border: none;
+}
+
+.linefield .title,
+.linefield .title:first-letter,
+.linefield label:first-letter,
+.search-header-label,
+.searchfacets h4.title:first-letter,
+.submit-page .roundfield span.title {
+    text-transform: capitalize;
+}
+
+.tabmenu.formtab {
+    padding: 0;
+
+    a {
+        border: none;
+        background: none !important;
+        font-size: 1.6rem !important;
+        text-transform: capitalize;
+        color: $text-color-light;
+    }
+
+    .selected a {
+        border-bottom: solid 0.2rem dodgerblue !important;
+        color: dodgerblue;
+        text-transform: capitalize;
+    }
+}

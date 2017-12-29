@@ -1,0 +1,29 @@
+.usertext-edit {
+    .livePreview {
+        background: $ui-color-light;
+    }
+}
+
+.morelink {
+    color: $text-color-light;
+    background: $ui-color-light;
+
+    &:hover {
+        background: $ui-color-hover-light;
+    }
+}
+
+textarea:not(#BigText),
+#sr-autocomplete,
+.input {
+    background: $ui-color-hover-light;
+    color: $text-color-light !important;
+}
+
+.pretty-form input[type='text'],
+.pretty-form textarea,
+.pretty-form input[type='password'],
+.pretty-form input[type='number'] {
+    background: $ui-color-hover-light;
+    color: $text-color-light !important;
+}

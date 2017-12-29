@@ -1,0 +1,308 @@
+.side {
+    margin-top: 11rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    background: none;
+    justify-content: center;
+    background: none !important;
+
+    .spacer {
+        width: 100%;
+        margin: 0;
+
+        & > div {
+            background: $ui-color-light;
+            box-sizing: border-box;
+            margin: 1rem 0;
+            border-radius: 0.2rem;
+        }
+
+        .login-form-side {
+            margin: 1rem 0;
+            border: none;
+            background: $ui-color-light;
+        }
+
+        .linkinfo {
+            border: none;
+            text-transform: capitalize;
+        }
+
+        .submit.submit-link,
+        .submit.submit-text {
+            width: 14.5rem;
+            position: absolute;
+            background: none;
+            top: 37rem;
+            margin: 0;
+
+            .morelink {
+                padding: 0.1rem 0;
+
+                a {
+                    font-weight: bold;
+                    color: goldenrod;
+                }
+            }
+
+            &.submit-link {
+                right: 17rem;
+            }
+
+            &.submit-text {
+                right: 1.5rem;
+            }
+        }
+
+        #search {
+            position: absolute;
+            top: 42rem;
+        }
+
+        .titlebox {
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+
+            &:before {
+                content: 'Subreddit Info';
+                text-align: center;
+                font-size: 1.6rem;
+                margin-bottom: 1rem;
+                font-weight: bold;
+            }
+
+            .redditname {
+                display: none;
+            }
+
+            .subButtons {
+                order: 3;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+
+                .subscribe-button {
+                    width: 100%;
+                    text-align: center;
+                    margin: 1rem;
+                    text-transform: capitalize;
+
+                    a {
+                        font-size: 1.6rem;
+                        border: none;
+                        padding: 0.2rem 1rem;
+                        color: #eee !important;
+                    }
+
+                    .remove {
+                        background: #aaa;
+                    }
+
+                    .add {
+                        background: goldenrod;
+                    }
+                }
+
+                .res-fancy-toggle-button {
+                    background: none;
+                    border: none;
+                    color: goldenrod;
+                    text-transform: uppercase;
+                }
+            }
+
+            .res-sr-style-toggle {
+                order: 4;
+                background: none;
+            }
+
+            .subscribers {
+                order: 1;
+                font-size: 1.6rem;
+                text-align: center;
+
+                .word {
+                    display: none;
+                }
+
+                .number:after {
+                    content: ' Subscribers';
+                }
+            }
+
+            .users-online {
+                order: 2;
+                text-align: center;
+                font-style: italic;
+
+                &:before {
+                    display: none;
+                }
+
+                .number:after {
+                    content: ' spending Christmas money on trove';
+                }
+
+                .word {
+                    display: none;
+                }
+            }
+
+            .leavemoderator {
+                order: 7;
+                background: none !important;
+            }
+
+            .flairtoggle {
+                order: 5;
+                background: none !important;
+            }
+
+            .tagline {
+                order: 6;
+
+                .flairselector {
+                    box-shadow: none;
+                    padding: 2rem !important;
+                    transform: translateX(-50%);
+                    left: 50% !important;
+                    border: solid 0.1rem;
+                    border-radius: 0.2rem;
+                    border-color: $text-color-light;
+                    background: $ui-color-light;
+
+                    h2 {
+                        background: none;
+                        text-transform: capitalize;
+                        padding-bottom: 1rem;
+                    }
+                }
+
+                .flairoptionpane {
+                    display: flex;
+                    max-height: initial;
+                    justify-content: space-between;
+                    margin-bottom: 1.5rem;
+                    border: none;
+
+                    ul {
+                        float: none !important;
+
+                        li {
+                            border-color: transparent;
+
+                            &:hover {
+                                background: $ui-color-hover-light;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .usertext {
+                order: 8;
+            }
+
+            .bottom {
+                display: none;
+            }
+        }
+
+        .sidecontentbox {
+            padding: 0.5rem;
+
+            .collapse-button {
+                display: none;
+            }
+
+            .content {
+                border: none;
+                background: none !important;
+            }
+        }
+
+        .account-activity-box {
+            padding: 1rem;
+            text-transform: capitalize;
+        }
+    }
+
+    a[href*='www.bladeandsoul.com'],
+    a[href*='bnstree.com'],
+    a[href*='discordapp.com'] {
+        display: block;
+        width: calc(100% - 2rem);
+        padding: 0.5rem;
+        color: goldenrod !important;
+
+        &:hover {
+            background: rgba(50, 50, 50, 0.5);
+            color: gold !important;
+        }
+    }
+
+    &:after {
+        content: 'subreddit theme by /u/dakaringer';
+        text-align: center;
+        width: 100%;
+        color: #777;
+    }
+
+    .icon-menu a {
+        background: none;
+    }
+
+    .sidebox.create {
+        display: none;
+    }
+
+    form input[type='checkbox'],
+    form input[type='radio'] {
+        margin: 0;
+        margin-right: 0.5rem;
+    }
+}
+
+#search {
+    input[type='text'] {
+        height: 4rem;
+        border: none;
+        outline: none;
+        border-radius: 0.2rem;
+        color: $text-color-light !important;
+        background: $ui-color-light;
+    }
+
+    input::placeholder {
+        text-transform: capitalize;
+    }
+
+    #searchexpando {
+        background: rgba(255, 255, 255, 1);
+        border: none;
+        border-radius: 0.2rem;
+        height: 27rem;
+
+        label {
+            display: flex;
+            color: $text-color-light;
+            padding: 1rem 0;
+
+            input {
+                margin: 0.2rem;
+            }
+        }
+    }
+}
+
+.search-result :visited,
+.search-result :visited > mark {
+    color: slategrey;
+}
+
+.search-expando.collapsed:before {
+    background: none;
+}

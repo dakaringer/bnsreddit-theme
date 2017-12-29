@@ -1,0 +1,17 @@
+#header {
+    #header-bottom-left {
+        .tabmenu {
+            background: $ui-color-dark;
+
+            li {
+                a {
+                    color: #aaa;
+                }
+            }
+        }
+    }
+
+    #header-bottom-right {
+        background: none;
+    }
+}

@@ -1,0 +1,22 @@
+body,
+body.res-nightmode {
+    background: $background-dark no-repeat;
+    background-size: 100% auto;
+    background-position: 0 -7rem;
+    background-color: $background-color-dark;
+    color: $text-color-dark;
+
+    @import 'md';
+    @import 'header';
+    @import 'side';
+    @import 'content';
+    @import 'main-list';
+    @import 'input';
+    @import 'submit';
+    @import 'misc';
+}
+
+body.res-commentBoxes,
+body.res-nightmode.res-commentBoxes {
+    @import 'comment';
+}

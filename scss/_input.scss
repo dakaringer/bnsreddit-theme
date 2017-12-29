@@ -1,0 +1,78 @@
+.usertext-edit {
+    width: 99%;
+    max-width: 80rem;
+
+    textarea {
+        width: 100%;
+    }
+
+    .livePreview {
+        background: $ui-color-light;
+    }
+}
+
+textarea:not(#BigText),
+#sr-autocomplete,
+.input {
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    box-sizing: border-box;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    background: $ui-color-hover-light;
+    color: $text-color-light !important;
+}
+
+.pretty-form input[type='text'],
+.pretty-form textarea,
+.pretty-form input[type='password'],
+.pretty-form input[type='number'] {
+    border: none;
+    background: $ui-color-hover-light;
+    color: $text-color-light !important;
+}
+
+textarea:not(#BigText) {
+    transform: translateZ(0);
+    width: 100%;
+    max-width: 100%;
+}
+
+.btn {
+    background: rgba(70, 70, 70, 0.7);
+    color: #eee;
+    border: none !important;
+    outline: none;
+    padding: 0.5rem 1rem;
+    text-transform: capitalize;
+    transition: all 0.2s;
+
+    &:hover {
+        background: rgba(70, 70, 70, 0.5);
+    }
+}
+
+.morelink {
+    color: $text-color-light;
+    background: $ui-color-light;
+    border: none;
+    border-radius: 0.2rem;
+    transition: all 0.2s;
+
+    a {
+        color: goldenrod;
+        font-weight: normal;
+    }
+
+    &:hover {
+        background: $ui-color-hover-light;
+        a {
+            color: gold;
+        }
+    }
+
+    .nub {
+        display: none;
+    }
+}

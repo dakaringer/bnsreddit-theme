@@ -1,0 +1,17 @@
+html[lang='li'] body {
+    background: $background-dark no-repeat;
+    background-size: 100% auto;
+    background-position: 0 -7rem;
+    background-color: $background-color-dark;
+    color: $text-color-light;
+
+    @import 'md';
+    @import 'header';
+    @import 'side';
+    @import 'content';
+    @import 'main-list';
+    @import 'comment';
+    @import 'input';
+    @import 'submit';
+    @import 'misc';
+}

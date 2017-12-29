@@ -1,0 +1,77 @@
+@import 'variables';
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background: $background-dark no-repeat;
+    background-size: 100% auto;
+    background-position: 0 -7rem;
+    background-color: $background-color-dark;
+    color: $text-color-light;
+}
+
+@import 'md';
+@import 'header';
+@import 'side';
+@import 'content';
+@import 'main-list';
+@import 'comment';
+@import 'user';
+@import 'input';
+@import 'submit';
+@import 'flair';
+@import 'misc';
+@import './lightmode/theme';
+@import './nightmode/theme';
+
+.footer-parent {
+    background: rgba(30, 32, 35, 0.9);
+    padding-bottom: 2rem;
+    margin-bottom: -1rem;
+
+    .footer {
+        border: none;
+        text-transform: capitalize;
+
+        .col {
+            border: none;
+        }
+    }
+}
+
+.link .usertext-body .md {
+    background: none;
+    border: none;
+    padding: none;
+}
+
+.usertext.grayed .usertext-body {
+    background: none;
+}
+
+a,
+.res-nightmode a {
+    color: dodgerblue;
+    transition: all 0.2s;
+    text-decoration: none;
+
+    &:hover {
+        color: deepskyblue;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: dodgerblue;
+    text-transform: capitalize;
+}
+
+.debuginfo {
+    display: none;
+}

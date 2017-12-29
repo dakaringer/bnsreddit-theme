@@ -1,0 +1,9 @@
+.sitetable {
+    background: $ui-color-dark;
+
+    &.nestedlisting {
+        & > .thing {
+            background: $ui-color-dark !important;
+        }
+    }
+}

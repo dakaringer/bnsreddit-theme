@@ -1,0 +1,119 @@
+.linkflairlabel {
+    background: #555;
+    border: none;
+    border-radius: 0.2rem;
+    color: #eee;
+    font-size: 1.2rem;
+    padding: 0.2rem 0.5rem;
+    overflow: initial;
+}
+
+.flair {
+    background: url(%%flair%%) top left no-repeat;
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    margin: 0 0.3rem;
+    line-height: 24px;
+    vertical-align: middle;
+    text-align: right;
+    text-indent: 26px;
+    border: none;
+    position: relative;
+    transition: all 0.3s;
+    overflow: hidden;
+    font-size: 1.2rem;
+    color: goldenrod !important;
+    font-size: 0 !important;
+    font-weight: bold;
+    background-color: transparent !important;
+
+    &.flair-admin {
+        background-position: 0 -24px;
+    }
+
+    &.flair-boss {
+        background-position: 0 -48px;
+    }
+
+    &.flair-class-assassin {
+        background-position: 0 -72px;
+    }
+
+    &.flair-class-bladedancer {
+        background-position: 0 -96px;
+    }
+
+    &.flair-class-blademaster {
+        background-position: 0 -120px;
+    }
+
+    &.flair-class-destroyer {
+        background-position: 0 -144px;
+    }
+
+    &.flair-class-forcemaster {
+        background-position: 0 -168px;
+    }
+
+    &.flair-class-gunslinger {
+        background-position: 0 -192px;
+    }
+
+    &.flair-class-kungfumaster {
+        background-position: 0 -216px;
+    }
+
+    &.flair-class-soulfighter {
+        background-position: 0 -240px;
+    }
+
+    &.flair-class-summoner {
+        background-position: 0 -264px;
+    }
+
+    &.flair-class-warlock {
+        background-position: 0 -288px;
+    }
+
+    &.flair-faction-cerulean {
+        background-position: 0 -312px;
+    }
+
+    &.flair-faction-crimson {
+        background-position: 0 -336px;
+    }
+
+    &.flair-nc {
+        background-position: 0 -360px;
+    }
+
+    &.flair-race-gon {
+        background-position: 0 -384px;
+    }
+
+    &.flair-race-jin {
+        background-position: 0 -408px;
+    }
+
+    &.flair-race-lyn {
+        background-position: 0 -432px;
+    }
+
+    &.flair-race-yun {
+        background-position: 0 -456px;
+    }
+
+    &.flair-whale {
+        background-position: 0 -480px;
+    }
+}
+
+.flair[title=''] {
+    width: 24px;
+}
+.flair:hover {
+    opacity: 1;
+    width: auto;
+    font-size: x-small !important;
+}

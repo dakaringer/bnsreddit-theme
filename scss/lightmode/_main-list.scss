@@ -1,0 +1,26 @@
+.organic-listing {
+    .link.promotedlink.promoted,
+    .link.promotedlink.external {
+        background: $ui-color-light !important;
+    }
+}
+
+.thing {
+    &.link:hover {
+        background: $ui-color-hover-light;
+    }
+}
+
+#progressIndicator {
+    background: $ui-color-hover-light;
+}
+
+.NERPageMarker {
+    background: $ui-color-hover-light;
+    border: none;
+}
+
+.RES-keyNav-activeElement,
+.RES-keyNav-activeElement .md-container {
+    background: none !important;
+}

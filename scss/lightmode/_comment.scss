@@ -1,0 +1,24 @@
+.comment .comment,
+.comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background: $ui-color-hover-light !important;
+}
+
+.comment .comment .comment,
+.comment .comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background: $ui-color-light !important;
+}
+
+.infobar {
+    background: $highlight-color-light;
+}
+
+.comment {
+    .usertext.border .usertext-body {
+        background: $highlight-color-light;
+    }
+}

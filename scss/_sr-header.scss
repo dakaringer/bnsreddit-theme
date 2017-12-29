@@ -1,0 +1,70 @@
+#sr-header-area,
+.res-nightmode #sr-header-area {
+    border: none;
+    padding: 0.1rem;
+
+    &,
+    .width-clip,
+    .drop-choices {
+        background: $ui-color-dark;
+    }
+
+    .sr-drop {
+        .choice {
+            margin: 0.2rem 0;
+        }
+
+        .choice.bottom-option {
+            margin-top: 0.5rem;
+            padding-top: 0.5rem;
+            border-top: solid 0.1rem rgba(255, 255, 255, 0.5);
+        }
+    }
+
+    .title,
+    a {
+        color: #aaa;
+        text-decoration: none !important;
+        background: none !important;
+        font-weight: normal;
+
+        &:hover {
+            color: #eee;
+        }
+    }
+
+    .srSep {
+        color: #aaa;
+    }
+
+    .selected a,
+    a.RESShortcutsCurrentSub {
+        color: $primary-color !important;
+        font-weight: normal;
+    }
+
+    .sr-list {
+        margin-right: 5rem;
+    }
+
+    #RESShortcutsEditContainer {
+        height: 100%;
+
+        &,
+        div {
+            background: none;
+            color: $primary-color;
+        }
+    }
+}
+
+#srList,
+.res-nightmode #srList {
+    background: $ui-color-dark;
+    color: $text-color-dark;
+    border: none;
+
+    tr {
+        border-bottom-color: $grey;
+    }
+}

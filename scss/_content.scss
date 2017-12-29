@@ -1,0 +1,30 @@
+body > .content {
+    margin: 0;
+    padding: 2rem 33rem 5rem 1rem !important;
+    background: none !important;
+
+    & > .spacer {
+        margin: 0;
+    }
+
+    .link .rank {
+        display: none;
+    }
+}
+
+.res-commentBoxes body > .content {
+    padding-right: 33rem !important;
+}
+
+.sitetable {
+    background: $ui-color-light;
+
+    &.nestedlisting {
+        background: none !important;
+        padding: 0;
+
+        & > .thing {
+            background: $ui-color-light !important;
+        }
+    }
+}

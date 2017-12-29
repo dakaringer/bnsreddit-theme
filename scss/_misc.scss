@@ -1,0 +1,18 @@
+.stylesheet-customize-container {
+    padding: 2rem;
+    border-radius: 0.2rem;
+    background: $ui-color-light;
+
+    .sheets {
+        margin: 0;
+    }
+}
+
+#preview-table > table {
+    width: 100%;
+}
+
+.gearIcon::after {
+    color: dodgerblue;
+    text-shadow: none;
+}

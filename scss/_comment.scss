@@ -1,0 +1,96 @@
+.panestack-title {
+    border: none;
+    color: $text-color-dark;
+}
+
+.infobar {
+    background: $highlight-color-dark;
+    border: none;
+}
+
+.comment-visits-box {
+    display: none;
+}
+
+.comment,
+.content .details,
+.res-commentBoxes .comment {
+    border: none !important;
+    position: relative;
+    padding: 0.5rem !important;
+    margin: 1rem 0 !important;
+
+    .midcol {
+        margin-left: 3rem;
+        margin-top: 0.5rem;
+    }
+}
+
+.comment {
+    span.score {
+        color: #777;
+    }
+
+    .child > .sitetable {
+        background: none;
+    }
+
+    .child,
+    .showreplies {
+        border: none;
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+
+    .expand {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: calc(100% - 0.8rem);
+        padding: 0.4rem;
+        padding-right: 0.7rem;
+        color: #777;
+        border-left: solid 0.2rem dodgerblue;
+        min-height: 2rem;
+
+        &:hover {
+            background: dodgerblue;
+            color: #eee !important;
+            text-decoration: none;
+        }
+    }
+
+    &.new-comment .usertext-body {
+        background: none !important;
+    }
+
+    .usertext.border .usertext-body {
+        background: $highlight-color-dark;
+    }
+}
+
+.res-commentBoxes {
+    .comment .comment,
+    .comment .comment .comment .comment,
+    .comment .comment .comment .comment .comment .comment,
+    .comment .comment .comment .comment .comment .comment .comment .comment,
+    .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+        background: $ui-color-hover-light !important;
+    }
+
+    .comment .comment .comment,
+    .comment .comment .comment .comment .comment,
+    .comment .comment .comment .comment .comment .comment .comment,
+    .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+        background: $ui-color-light !important;
+    }
+
+    &.res-commentBoxes-rounded .comment {
+        border-radius: 0 !important;
+    }
+}
+
+.new-comment .usertext-body {
+    border: none;
+    background: rgba(70, 70, 70, 0.7);
+}

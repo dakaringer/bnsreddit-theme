@@ -1,0 +1,13 @@
+{
+    "name": "bns-reddit-theme",
+    "version": "1.0.0",
+    "dependencies": {
+        "node-sass": "^4.7.2"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "build": "node-sass --include-path scss scss/main.scss main.css",
+        "watch": "nodemon -e scss -x \"npm run build\""
+    },
+    "author": "dakaringer"
+}
