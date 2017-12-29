@@ -2,6 +2,7 @@
     background: none !important;
     margin: 0;
     border: none;
+    border-radius: 0.2rem;
 
     .link.promotedlink.promoted,
     .link.promotedlink.external {
@@ -16,11 +17,6 @@
     padding: 1.2rem 0;
     margin: 0;
     transition: all 0.2s;
-    border-bottom: solid 0.1rem rgba(150, 150, 150, 0.2) !important;
-
-    &.link:hover {
-        background: $ui-color-hover-light;
-    }
 
     .title {
         color: dodgerblue;
@@ -75,6 +71,14 @@
     }
 }
 
+.spacer .thing {
+    border-bottom: solid 0.1rem rgba(150, 150, 150, 0.2) !important;
+
+    &.link:hover {
+        background: $ui-color-hover-light;
+    }
+}
+
 .nav-buttons {
     text-transform: capitalize;
 
@@ -94,5 +98,5 @@
 .RES-keyNav-activeElement,
 .RES-keyNav-activeElement .md-container {
     background: none !important;
-    border-right: solid 0.1rem darkslategray;
+    border-right: solid 0.1rem rgba(0, 0, 0, 0.1);
 }

@@ -18,6 +18,7 @@ body > .content {
 
 .sitetable {
     background: $ui-color-light;
+    border-radius: 0.2rem;
 
     &.nestedlisting {
         background: none !important;

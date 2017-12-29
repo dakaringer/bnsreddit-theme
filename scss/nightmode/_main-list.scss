@@ -5,7 +5,7 @@
     }
 }
 
-.thing {
+.spacer .thing {
     &.link:hover {
         background: $ui-color-hover-dark;
     }
@@ -13,6 +13,7 @@
 
 #progressIndicator {
     background: $ui-color-hover-dark;
+    border: none;
 }
 
 .NERPageMarker {

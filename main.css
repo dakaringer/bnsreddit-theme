@@ -359,7 +359,8 @@ body > .content {
   padding-right: 33rem !important; }
 
 .sitetable {
-  background: rgba(255, 255, 255, 0.95); }
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 0.2rem; }
   .sitetable.nestedlisting {
     background: none !important;
     padding: 0; }
@@ -369,7 +370,8 @@ body > .content {
 .organic-listing {
   background: none !important;
   margin: 0;
-  border: none; }
+  border: none;
+  border-radius: 0.2rem; }
   .organic-listing .link.promotedlink.promoted,
   .organic-listing .link.promotedlink.external {
     background: rgba(255, 255, 255, 0.95) !important;
@@ -380,10 +382,7 @@ body > .content {
 .thing {
   padding: 1.2rem 0;
   margin: 0;
-  transition: all 0.2s;
-  border-bottom: solid 0.1rem rgba(150, 150, 150, 0.2) !important; }
-  .thing.link:hover {
-    background: rgba(225, 225, 225, 0.95); }
+  transition: all 0.2s; }
   .thing .title {
     color: dodgerblue;
     display: flex;
@@ -417,6 +416,11 @@ body > .content {
   .thing .voteWeight {
     background: none !important; }
 
+.spacer .thing {
+  border-bottom: solid 0.1rem rgba(150, 150, 150, 0.2) !important; }
+  .spacer .thing.link:hover {
+    background: rgba(225, 225, 225, 0.95); }
+
 .nav-buttons {
   text-transform: capitalize; }
   .nav-buttons a {
@@ -431,7 +435,7 @@ body > .content {
 .RES-keyNav-activeElement,
 .RES-keyNav-activeElement .md-container {
   background: none !important;
-  border-right: solid 0.1rem darkslategray; }
+  border-right: solid 0.1rem rgba(0, 0, 0, 0.1); }
 
 .panestack-title {
   border: none;
@@ -789,10 +793,11 @@ html[lang='li'] body {
   html[lang='li'] body .organic-listing .link.promotedlink.promoted,
   html[lang='li'] body .organic-listing .link.promotedlink.external {
     background: rgba(255, 255, 255, 0.95) !important; }
-  html[lang='li'] body .thing.link:hover {
+  html[lang='li'] body .spacer .thing.link:hover {
     background: rgba(225, 225, 225, 0.95); }
   html[lang='li'] body #progressIndicator {
-    background: rgba(225, 225, 225, 0.95); }
+    background: rgba(225, 225, 225, 0.95);
+    border: none; }
   html[lang='li'] body .NERPageMarker {
     background: rgba(225, 225, 225, 0.95);
     border: none; }
@@ -909,12 +914,13 @@ body.res-nightmode {
   body.res-nightmode .organic-listing .link.promotedlink.promoted,
   body.res-nightmode .organic-listing .link.promotedlink.external {
     background: rgba(30, 32, 35, 0.9) !important; }
-  body .thing.link:hover,
-  body.res-nightmode .thing.link:hover {
+  body .spacer .thing.link:hover,
+  body.res-nightmode .spacer .thing.link:hover {
     background: rgba(45, 50, 55, 0.9); }
   body #progressIndicator,
   body.res-nightmode #progressIndicator {
-    background: rgba(45, 50, 55, 0.9); }
+    background: rgba(45, 50, 55, 0.9);
+    border: none; }
   body .NERPageMarker,
   body.res-nightmode .NERPageMarker {
     background: rgba(45, 50, 55, 0.9);
