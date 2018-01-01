@@ -31,6 +31,23 @@
             }
         }
     }
+
+    a[href='https://www.reddit.com/r/bladeandsoul/'],
+    a[href='https://li.reddit.com/r/bladeandsoul/'] {
+        &:hover {
+            background-color: $ui-color-hover-light;
+        }
+    }
+
+    a[href*='www.bladeandsoul.com'],
+    a[href*='bnstree.com'],
+    a[href*='discordapp.com'] {
+        background-image: url(%%side-icons-light%%);
+
+        &:hover {
+            background-color: $ui-color-hover-light;
+        }
+    }
 }
 
 #search {

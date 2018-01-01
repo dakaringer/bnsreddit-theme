@@ -6,9 +6,9 @@
 
     .link.promotedlink.promoted,
     .link.promotedlink.external {
-        background: $ui-color-light !important;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         padding: 1rem 0;
+        background: $ui-color-light !important;
         border: none !important;
     }
 }
@@ -30,8 +30,66 @@
 
     .expando-button {
         display: inline-block;
-        vertical-align: middle;
+        vertical-align: middle !important;
         float: none;
+        background-image: url(%%expand%%) !important;
+        background-repeat: no-repeat;
+        background-size: auto !important;
+        height: 1.6rem;
+        width: 1.6rem;
+        transition: none;
+
+        &:hover {
+            background-color: dodgerblue;
+        }
+
+        &.collapsed.selftext {
+            background-position: -0px -0px;
+
+            &:hover {
+                background-position: -16px -0px;
+            }
+        }
+
+        &.collapsed.image {
+            background-position: -32px -16px;
+
+            &:hover {
+                background-position: -48px -16px;
+            }
+        }
+
+        &.collapsed.gallery {
+            background-position: -0px -16px;
+
+            &:hover {
+                background-position: -16px -16px;
+            }
+        }
+
+        &.collapsed.video {
+            background-position: -64px -0px;
+
+            &:hover {
+                background-position: -80px -0px;
+            }
+        }
+
+        &.collapsed.video-muted {
+            background-position: -64px -16px;
+
+            &:hover {
+                background-position: -80px -16px;
+            }
+        }
+
+        &.expanded.selftext {
+            background-position: -32px -0px;
+
+            &:hover {
+                background-position: -48px -0px;
+            }
+        }
     }
 
     .tagline {
@@ -57,6 +115,7 @@
             background-image: url(%%default-thumb%%);
             background-position: 0px 0px;
             background-repeat: no-repeat;
+            background-size: auto;
             height: 50px;
         }
     }
@@ -64,10 +123,6 @@
     &.link.last-clicked {
         border: none;
         background: none;
-    }
-
-    .voteWeight {
-        background: none !important;
     }
 }
 
@@ -99,4 +154,11 @@
 .RES-keyNav-activeElement .md-container {
     background: none !important;
     border-right: solid 0.1rem rgba(0, 0, 0, 0.1);
+}
+
+#progressIndicator,
+.NERPageMarker {
+    background: $ui-color-hover-light;
+    border: none;
+    border-radius: 0.2rem;
 }

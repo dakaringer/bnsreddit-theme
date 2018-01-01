@@ -7,6 +7,8 @@
     .width-clip,
     .drop-choices {
         background: $ui-color-dark;
+        max-height: 30rem;
+        overflow: auto;
     }
 
     .sr-drop {
@@ -66,5 +68,9 @@
 
     tr {
         border-bottom-color: $grey;
+
+        &:hover {
+            background: $ui-color-hover-dark;
+        }
     }
 }
