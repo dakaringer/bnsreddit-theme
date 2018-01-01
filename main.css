@@ -32,7 +32,9 @@ body {
   .res-nightmode #sr-header-area,
   .res-nightmode #sr-header-area .width-clip,
   .res-nightmode #sr-header-area .drop-choices {
-    background: rgba(30, 32, 35, 0.9); }
+    background: rgba(30, 32, 35, 0.9);
+    max-height: 30rem;
+    overflow: auto; }
   #sr-header-area .sr-drop .choice,
   .res-nightmode #sr-header-area .sr-drop .choice {
     margin: 0.2rem 0; }
@@ -84,6 +86,9 @@ body {
   #srList tr,
   .res-nightmode #srList tr {
     border-bottom-color: rgba(50, 50, 50, 0.5); }
+    #srList tr:hover,
+    .res-nightmode #srList tr:hover {
+      background: rgba(45, 50, 55, 0.9); }
 
 #header {
   height: 35rem;
@@ -203,25 +208,25 @@ body {
         display: flex;
         flex-wrap: wrap;
         justify-content: center; }
-        .side .spacer .titlebox .subButtons .subscribe-button {
-          width: 100%;
-          text-align: center;
-          margin: 1rem;
-          text-transform: capitalize; }
-          .side .spacer .titlebox .subButtons .subscribe-button a {
-            font-size: 1.6rem;
-            border: none;
-            padding: 0.2rem 1rem;
-            color: #eee !important; }
-          .side .spacer .titlebox .subButtons .subscribe-button .remove {
-            background: #aaa; }
-          .side .spacer .titlebox .subButtons .subscribe-button .add {
-            background: goldenrod; }
-        .side .spacer .titlebox .subButtons .res-fancy-toggle-button {
-          background: none;
+      .side .spacer .titlebox .subscribe-button {
+        width: 100%;
+        text-align: center;
+        margin: 1rem;
+        text-transform: capitalize; }
+        .side .spacer .titlebox .subscribe-button a {
+          font-size: 1.6rem;
           border: none;
-          color: goldenrod;
-          text-transform: uppercase; }
+          padding: 0.2rem 1rem;
+          color: #eee !important; }
+        .side .spacer .titlebox .subscribe-button .remove {
+          background: #aaa; }
+        .side .spacer .titlebox .subscribe-button .add {
+          background: goldenrod; }
+      .side .spacer .titlebox .res-fancy-toggle-button {
+        background: none;
+        border: none;
+        color: goldenrod;
+        text-transform: uppercase; }
       .side .spacer .titlebox .res-sr-style-toggle {
         order: 4;
         background: none; }
@@ -290,18 +295,40 @@ body {
     .side .spacer .account-activity-box {
       padding: 1rem;
       text-transform: capitalize; }
+  .side a[href='https://www.reddit.com/r/bladeandsoul/'],
+  .side a[href='https://li.reddit.com/r/bladeandsoul/'] {
+    color: goldenrod !important;
+    background-image: url(%%themes%%);
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-left: 4.5rem;
+    height: 4rem;
+    width: calc(50% - 4.75rem);
+    line-height: 4rem; }
+    .side a[href='https://www.reddit.com/r/bladeandsoul/']:hover,
+    .side a[href='https://li.reddit.com/r/bladeandsoul/']:hover {
+      background-color: rgba(225, 225, 225, 0.95); }
+  .side a[href='https://li.reddit.com/r/bladeandsoul/'] {
+    background-position: 0 -40px; }
   .side a[href*='www.bladeandsoul.com'],
   .side a[href*='bnstree.com'],
   .side a[href*='discordapp.com'] {
     display: block;
-    width: calc(100% - 2rem);
-    padding: 0.5rem;
-    color: goldenrod !important; }
+    width: calc(100% - 4.5rem);
+    color: goldenrod !important;
+    background-image: url(%%side-icons-light%%);
+    background-repeat: no-repeat;
+    padding-left: 4.5rem;
+    height: 4rem;
+    line-height: 4rem; }
     .side a[href*='www.bladeandsoul.com']:hover,
     .side a[href*='bnstree.com']:hover,
     .side a[href*='discordapp.com']:hover {
-      background: rgba(50, 50, 50, 0.5);
-      color: gold !important; }
+      background-color: rgba(225, 225, 225, 0.95); }
+  .side a[href*='bnstree.com'] {
+    background-position: 0 -40px; }
+  .side a[href*='discordapp.com'] {
+    background-position: 0 -80px; }
   .side:after {
     content: 'subreddit theme by /u/dakaringer';
     text-align: center;
@@ -374,9 +401,9 @@ body > .content {
   border-radius: 0.2rem; }
   .organic-listing .link.promotedlink.promoted,
   .organic-listing .link.promotedlink.external {
-    background: rgba(255, 255, 255, 0.95) !important;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     padding: 1rem 0;
+    background: rgba(255, 255, 255, 0.95) !important;
     border: none !important; }
 
 .thing {
@@ -391,8 +418,40 @@ body > .content {
       color: slategrey; }
   .thing .expando-button {
     display: inline-block;
-    vertical-align: middle;
-    float: none; }
+    vertical-align: middle !important;
+    float: none;
+    background-image: url(%%expand%%) !important;
+    background-repeat: no-repeat;
+    background-size: auto !important;
+    height: 1.6rem;
+    width: 1.6rem;
+    transition: none; }
+    .thing .expando-button:hover {
+      background-color: dodgerblue; }
+    .thing .expando-button.collapsed.selftext {
+      background-position: -0px -0px; }
+      .thing .expando-button.collapsed.selftext:hover {
+        background-position: -16px -0px; }
+    .thing .expando-button.collapsed.image {
+      background-position: -32px -16px; }
+      .thing .expando-button.collapsed.image:hover {
+        background-position: -48px -16px; }
+    .thing .expando-button.collapsed.gallery {
+      background-position: -0px -16px; }
+      .thing .expando-button.collapsed.gallery:hover {
+        background-position: -16px -16px; }
+    .thing .expando-button.collapsed.video {
+      background-position: -64px -0px; }
+      .thing .expando-button.collapsed.video:hover {
+        background-position: -80px -0px; }
+    .thing .expando-button.collapsed.video-muted {
+      background-position: -64px -16px; }
+      .thing .expando-button.collapsed.video-muted:hover {
+        background-position: -80px -16px; }
+    .thing .expando-button.expanded.selftext {
+      background-position: -32px -0px; }
+      .thing .expando-button.expanded.selftext:hover {
+        background-position: -48px -0px; }
   .thing .tagline {
     margin-top: 0.5rem;
     display: inline-block; }
@@ -409,12 +468,11 @@ body > .content {
       background-image: url(%%default-thumb%%);
       background-position: 0px 0px;
       background-repeat: no-repeat;
+      background-size: auto;
       height: 50px; }
   .thing.link.last-clicked {
     border: none;
     background: none; }
-  .thing .voteWeight {
-    background: none !important; }
 
 .spacer .thing {
   border-bottom: solid 0.1rem rgba(150, 150, 150, 0.2) !important; }
@@ -436,6 +494,12 @@ body > .content {
 .RES-keyNav-activeElement .md-container {
   background: none !important;
   border-right: solid 0.1rem rgba(0, 0, 0, 0.1); }
+
+#progressIndicator,
+.NERPageMarker {
+  background: rgba(225, 225, 225, 0.95);
+  border: none;
+  border-radius: 0.2rem; }
 
 .panestack-title {
   border: none;
@@ -532,6 +596,9 @@ a.author {
   .res-userHighlight .tagline a.author.submitter:hover,
   .res-userHighlight .crosspost-preview-tagline a.author.submitter:hover {
     background: none !important; }
+
+.voteWeight {
+  background: none !important; }
 
 .tagline .moderator,
 .green,
@@ -779,6 +846,17 @@ html[lang='li'] body {
       color: skyblue !important; }
   html[lang='li'] body .side .spacer .titlebox .tagline .flairoptionpane ul li:hover {
     background: rgba(225, 225, 225, 0.95); }
+  html[lang='li'] body .side a[href='https://www.reddit.com/r/bladeandsoul/']:hover,
+  html[lang='li'] body .side a[href='https://li.reddit.com/r/bladeandsoul/']:hover {
+    background-color: rgba(225, 225, 225, 0.95); }
+  html[lang='li'] body .side a[href*='www.bladeandsoul.com'],
+  html[lang='li'] body .side a[href*='bnstree.com'],
+  html[lang='li'] body .side a[href*='discordapp.com'] {
+    background-image: url(%%side-icons-light%%); }
+    html[lang='li'] body .side a[href*='www.bladeandsoul.com']:hover,
+    html[lang='li'] body .side a[href*='bnstree.com']:hover,
+    html[lang='li'] body .side a[href*='discordapp.com']:hover {
+      background-color: rgba(225, 225, 225, 0.95); }
   html[lang='li'] body #search input[type='text'] {
     color: #292f34 !important;
     background: rgba(255, 255, 255, 0.95); }
@@ -795,12 +873,9 @@ html[lang='li'] body {
     background: rgba(255, 255, 255, 0.95) !important; }
   html[lang='li'] body .spacer .thing.link:hover {
     background: rgba(225, 225, 225, 0.95); }
-  html[lang='li'] body #progressIndicator {
-    background: rgba(225, 225, 225, 0.95);
-    border: none; }
+  html[lang='li'] body #progressIndicator,
   html[lang='li'] body .NERPageMarker {
-    background: rgba(225, 225, 225, 0.95);
-    border: none; }
+    background: rgba(225, 225, 225, 0.95); }
   html[lang='li'] body .RES-keyNav-activeElement,
   html[lang='li'] body .RES-keyNav-activeElement .md-container {
     background: none !important; }
@@ -893,6 +968,25 @@ body.res-nightmode {
   body .side .spacer .titlebox .tagline .flairoptionpane ul li:hover,
   body.res-nightmode .side .spacer .titlebox .tagline .flairoptionpane ul li:hover {
     background: rgba(45, 50, 55, 0.9); }
+  body .side a[href='https://www.reddit.com/r/bladeandsoul/']:hover,
+  body .side a[href='https://li.reddit.com/r/bladeandsoul/']:hover,
+  body.res-nightmode .side a[href='https://www.reddit.com/r/bladeandsoul/']:hover,
+  body.res-nightmode .side a[href='https://li.reddit.com/r/bladeandsoul/']:hover {
+    background-color: rgba(45, 50, 55, 0.9); }
+  body .side a[href*='www.bladeandsoul.com'],
+  body .side a[href*='bnstree.com'],
+  body .side a[href*='discordapp.com'],
+  body.res-nightmode .side a[href*='www.bladeandsoul.com'],
+  body.res-nightmode .side a[href*='bnstree.com'],
+  body.res-nightmode .side a[href*='discordapp.com'] {
+    background-image: url(%%side-icons-dark%%); }
+    body .side a[href*='www.bladeandsoul.com']:hover,
+    body .side a[href*='bnstree.com']:hover,
+    body .side a[href*='discordapp.com']:hover,
+    body.res-nightmode .side a[href*='www.bladeandsoul.com']:hover,
+    body.res-nightmode .side a[href*='bnstree.com']:hover,
+    body.res-nightmode .side a[href*='discordapp.com']:hover {
+      background-color: rgba(45, 50, 55, 0.9); }
   body #search input[type='text'],
   body.res-nightmode #search input[type='text'] {
     color: #eeeeee !important;
@@ -918,13 +1012,10 @@ body.res-nightmode {
   body.res-nightmode .spacer .thing.link:hover {
     background: rgba(45, 50, 55, 0.9); }
   body #progressIndicator,
-  body.res-nightmode #progressIndicator {
-    background: rgba(45, 50, 55, 0.9);
-    border: none; }
   body .NERPageMarker,
+  body.res-nightmode #progressIndicator,
   body.res-nightmode .NERPageMarker {
-    background: rgba(45, 50, 55, 0.9);
-    border: none; }
+    background: rgba(45, 50, 55, 0.9); }
   body .RES-keyNav-activeElement,
   body .RES-keyNav-activeElement .md-container,
   body.res-nightmode .RES-keyNav-activeElement,
@@ -975,6 +1066,9 @@ body.res-nightmode {
   body .stylesheet-customize-container,
   body.res-nightmode .stylesheet-customize-container {
     background: rgba(30, 32, 35, 0.9); }
+  body .report-reason,
+  body.res-nightmode .report-reason {
+    color: black; }
 
 body.res-commentBoxes .comment .comment,
 body.res-commentBoxes .comment .comment .comment .comment,
