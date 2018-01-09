@@ -23,7 +23,7 @@ body > .content {
 }
 
 .sitetable {
-    background: $ui-color-light;
+    background: $ui-color-dark;
     border-radius: 0.2rem;
 
     &.nestedlisting {
@@ -31,7 +31,7 @@ body > .content {
         padding: 0;
 
         & > .thing {
-            background: $ui-color-light !important;
+            background: $ui-color-dark !important;
         }
     }
 }

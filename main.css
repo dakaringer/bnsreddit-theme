@@ -6,10 +6,10 @@ body {
   background-size: 100% auto;
   background-position: 0 -7rem;
   background-color: #111111;
-  color: #292f34; }
+  color: #eeeeee; }
 
 .md:not(#BigPreview) {
-  color: #292f34; }
+  color: #eeeeee; }
   .md:not(#BigPreview) .-lists,
   .md:not(#BigPreview) ul,
   .md:not(#BigPreview) ol {
@@ -119,7 +119,7 @@ body {
     width: calc(100% - 2.5rem);
     position: absolute;
     bottom: 0;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(30, 32, 35, 0.9);
     height: 3rem;
     align-items: center;
     margin: 0 1rem;
@@ -164,14 +164,14 @@ body {
     width: 100%;
     margin: 0; }
     .side .spacer > div {
-      background: rgba(255, 255, 255, 0.95);
+      background: rgba(30, 32, 35, 0.9);
       box-sizing: border-box;
       margin: 1rem 0;
       border-radius: 0.2rem; }
     .side .spacer .login-form-side {
       margin: 1rem 0;
       border: none;
-      background: rgba(255, 255, 255, 0.95); }
+      background: rgba(30, 32, 35, 0.9); }
     .side .spacer .linkinfo {
       border: none;
       text-transform: capitalize; }
@@ -270,8 +270,8 @@ body {
           left: 50% !important;
           border: solid 0.1rem;
           border-radius: 0.2rem;
-          border-color: #292f34;
-          background: rgba(255, 255, 255, 0.95); }
+          border-color: #eeeeee;
+          background: rgba(30, 32, 35, 0.9); }
           .side .spacer .titlebox .tagline .flairselector h2 {
             background: none;
             text-transform: capitalize;
@@ -287,7 +287,7 @@ body {
             .side .spacer .titlebox .tagline .flairoptionpane ul li {
               border-color: transparent; }
               .side .spacer .titlebox .tagline .flairoptionpane ul li:hover {
-                background: rgba(225, 225, 225, 0.95); }
+                background: rgba(45, 50, 55, 0.9); }
       .side .spacer .titlebox .usertext {
         order: 8; }
       .side .spacer .titlebox .bottom {
@@ -314,7 +314,7 @@ body {
       line-height: 4rem; }
       .side .spacer .md a[href='https://www.reddit.com/r/bladeandsoul/']:hover,
       .side .spacer .md a[href='https://li.reddit.com/r/bladeandsoul/']:hover {
-        background-color: rgba(225, 225, 225, 0.95); }
+        background-color: rgba(45, 50, 55, 0.9); }
     .side .spacer .md a[href='https://li.reddit.com/r/bladeandsoul/'] {
       background-position: 0 -40px; }
     .side .spacer .md a[href*='www.bladeandsoul.com'],
@@ -323,7 +323,7 @@ body {
       display: block;
       width: calc(100% - 4.5rem);
       color: goldenrod !important;
-      background-image: url(%%side-icons-light%%);
+      background-image: url(%%side-icons-dark%%);
       background-repeat: no-repeat;
       padding-left: 4.5rem;
       height: 4rem;
@@ -331,11 +331,17 @@ body {
       .side .spacer .md a[href*='www.bladeandsoul.com']:hover,
       .side .spacer .md a[href*='bnstree.com']:hover,
       .side .spacer .md a[href*='discordapp.com']:hover {
-        background-color: rgba(225, 225, 225, 0.95); }
+        background-color: rgba(45, 50, 55, 0.9); }
     .side .spacer .md a[href*='bnstree.com'] {
       background-position: 0 -40px; }
     .side .spacer .md a[href*='discordapp.com'] {
       background-position: 0 -80px; }
+    .side .spacer .md table {
+      width: 100%; }
+      .side .spacer .md table thead {
+        display: none; }
+      .side .spacer .md table td {
+        border: none; }
     .side .spacer .md h5 {
       display: block;
       overflow: hidden;
@@ -344,7 +350,7 @@ body {
       left: 1rem;
       border-radius: 0.2rem;
       padding: 0 1.5rem;
-      background: rgba(255, 255, 255, 0.95);
+      background: rgba(30, 32, 35, 0.9);
       color: #999;
       right: 33rem;
       font-size: 1.4rem;
@@ -373,8 +379,8 @@ body {
   border: none;
   outline: none;
   border-radius: 0.2rem;
-  color: #292f34 !important;
-  background: rgba(255, 255, 255, 0.95); }
+  color: #eeeeee !important;
+  background: rgba(30, 32, 35, 0.9); }
 
 #search input::placeholder {
   text-transform: capitalize; }
@@ -386,7 +392,7 @@ body {
   height: 27rem; }
   #search #searchexpando label {
     display: flex;
-    color: #292f34;
+    color: #eeeeee;
     padding: 1rem 0; }
     #search #searchexpando label input {
       margin: 0.2rem; }
@@ -412,13 +418,13 @@ body > .content {
   padding-right: 33rem !important; }
 
 .sitetable {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(30, 32, 35, 0.9);
   border-radius: 0.2rem; }
   .sitetable.nestedlisting {
     background: none !important;
     padding: 0; }
     .sitetable.nestedlisting > .thing {
-      background: rgba(255, 255, 255, 0.95) !important; }
+      background: rgba(30, 32, 35, 0.9) !important; }
 
 .organic-listing {
   background: none !important;
@@ -429,7 +435,7 @@ body > .content {
   .organic-listing .link.promotedlink.external {
     margin-bottom: 1rem;
     padding: 1rem 0;
-    background: rgba(255, 255, 255, 0.95) !important;
+    background: rgba(30, 32, 35, 0.9) !important;
     border: none !important; }
 
 .thing {
@@ -503,7 +509,7 @@ body > .content {
 .spacer .thing {
   border-bottom: solid 0.1rem rgba(150, 150, 150, 0.2) !important; }
   .spacer .thing.link:hover {
-    background: rgba(225, 225, 225, 0.95); }
+    background: rgba(45, 50, 55, 0.9); }
 
 .nav-buttons {
   text-transform: capitalize; }
@@ -523,7 +529,7 @@ body > .content {
 
 #progressIndicator,
 .NERPageMarker {
-  background: rgba(225, 225, 225, 0.95);
+  background: rgba(45, 50, 55, 0.9);
   border: none;
   border-radius: 0.2rem; }
 
@@ -589,13 +595,13 @@ body > .content {
 .res-commentBoxes .comment .comment .comment .comment .comment .comment,
 .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment,
 .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-  background: rgba(225, 225, 225, 0.95) !important; }
+  background: rgba(45, 50, 55, 0.9) !important; }
 
 .res-commentBoxes .comment .comment .comment,
 .res-commentBoxes .comment .comment .comment .comment .comment,
 .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment,
 .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-  background: rgba(255, 255, 255, 0.95) !important; }
+  background: rgba(30, 32, 35, 0.9) !important; }
 
 .res-commentBoxes.res-commentBoxes-rounded .comment {
   border-radius: 0 !important; }
@@ -641,7 +647,7 @@ a.author {
   .usertext-edit textarea {
     width: 100%; }
   .usertext-edit .livePreview {
-    background: rgba(255, 255, 255, 0.95); }
+    background: rgba(30, 32, 35, 0.9); }
 
 textarea:not(#BigText),
 #sr-autocomplete,
@@ -652,16 +658,16 @@ textarea:not(#BigText),
   outline: none;
   box-shadow: none;
   border: none;
-  background: rgba(225, 225, 225, 0.95);
-  color: #292f34 !important; }
+  background: rgba(45, 50, 55, 0.9);
+  color: #eeeeee !important; }
 
 .pretty-form input[type='text'],
 .pretty-form textarea,
 .pretty-form input[type='password'],
 .pretty-form input[type='number'] {
   border: none;
-  background: rgba(225, 225, 225, 0.95);
-  color: #292f34 !important; }
+  background: rgba(45, 50, 55, 0.9);
+  color: #eeeeee !important; }
 
 textarea:not(#BigText) {
   transform: translateZ(0);
@@ -680,8 +686,8 @@ textarea:not(#BigText) {
     background: rgba(70, 70, 70, 0.5); }
 
 .morelink {
-  color: #292f34;
-  background: rgba(255, 255, 255, 0.95);
+  color: #eeeeee;
+  background: rgba(30, 32, 35, 0.9);
   border: none;
   border-radius: 0.2rem;
   transition: all 0.2s; }
@@ -689,7 +695,7 @@ textarea:not(#BigText) {
     color: goldenrod;
     font-weight: normal; }
   .morelink:hover {
-    background: rgba(225, 225, 225, 0.95); }
+    background: rgba(45, 50, 55, 0.9); }
     .morelink:hover a {
       color: gold; }
   .morelink .nub {
@@ -701,7 +707,7 @@ textarea:not(#BigText) {
   align-items: center;
   background: none !important; }
   .submit.content .info-notice {
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(30, 32, 35, 0.9);
     border: none; }
 
 .formtabs-content {
@@ -713,7 +719,7 @@ textarea:not(#BigText) {
   display: none !important; }
 
 .roundfield {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(30, 32, 35, 0.9);
   border: none;
   border-radius: 0.2rem; }
   .roundfield #suggested-reddits {
@@ -723,11 +729,11 @@ textarea:not(#BigText) {
     width: 100%; }
 
 #newlink-with-image-upload .image-upload-drop-target {
-  background: rgba(225, 225, 225, 0.95); }
+  background: rgba(45, 50, 55, 0.9); }
 
 .linefield,
 .linefield.mobile {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(30, 32, 35, 0.9);
   border: none; }
 
 .linefield .title,
@@ -745,7 +751,7 @@ textarea:not(#BigText) {
     background: none !important;
     font-size: 1.6rem !important;
     text-transform: capitalize;
-    color: #292f34; }
+    color: #eeeeee; }
   .tabmenu.formtab .selected a {
     border-bottom: solid 0.2rem dodgerblue !important;
     color: dodgerblue;
@@ -831,7 +837,7 @@ textarea:not(#BigText) {
 .stylesheet-customize-container {
   padding: 2rem;
   border-radius: 0.2rem;
-  background: rgba(255, 255, 255, 0.95); }
+  background: rgba(30, 32, 35, 0.9); }
   .stylesheet-customize-container .sheets {
     margin: 0; }
 
@@ -849,7 +855,7 @@ textarea:not(#BigText) {
 .wiki-page .wiki-page-content {
   margin: 0;
   padding: 2rem;
-  background: rgba(255, 255, 255, 0.95); }
+  background: rgba(30, 32, 35, 0.9); }
   .wiki-page .wiki-page-content .md {
     position: relative;
     padding-right: 25rem; }
@@ -861,114 +867,146 @@ textarea:not(#BigText) {
     .wiki-page .wiki-page-content .md h2 {
       color: deepskyblue; }
 
-html[lang='li'] body {
+body.search-page .side {
+  margin-top: 5rem; }
+
+body.search-page .searchpane {
+  width: 100%;
+  padding: 1rem;
+  margin: 0;
+  box-sizing: border-box;
+  background: rgba(30, 32, 35, 0.9); }
+  body.search-page .searchpane #previoussearch input[type='text'] {
+    max-width: 100%;
+    background: rgba(45, 50, 55, 0.9); }
+  body.search-page .searchpane #previoussearch label {
+    display: none; }
+
+body.search-page .listing {
+  background: rgba(30, 32, 35, 0.9); }
+  body.search-page .listing .search-result-group {
+    padding: 1rem;
+    max-width: 100%;
+    min-width: auto; }
+    body.search-page .listing .search-result-group .search-result-group-header {
+      margin-top: 0; }
+  body.search-page .listing .search-result {
+    overflow: hidden; }
+
+html:lang(li) body {
   background: url(%%background-dark%%) no-repeat;
   background-size: 100% auto;
   background-position: 0 -7rem;
   background-color: #111111;
   color: #292f34; }
-  html[lang='li'] body .md:not(#BigPreview) {
+  html:lang(li) body .md:not(#BigPreview) {
     color: #292f34; }
-  html[lang='li'] body .side .titlebox form.flairtoggle,
-  html[lang='li'] body .trophy-area .content,
-  html[lang='li'] body .side .md ol,
-  html[lang='li'] body .side .md ul {
+  html:lang(li) body .side .titlebox form.flairtoggle,
+  html:lang(li) body .trophy-area .content,
+  html:lang(li) body .side .md ol,
+  html:lang(li) body .side .md ul {
     background: none; }
-  html[lang='li'] body #header #header-bottom-left .tabmenu {
+  html:lang(li) body #header #header-bottom-left .tabmenu {
     background: rgba(255, 255, 255, 0.95); }
-  html[lang='li'] body #header #header-bottom-right {
+  html:lang(li) body #header #header-bottom-right {
     background: none; }
-  html[lang='li'] body .side .spacer > div {
+  html:lang(li) body .side .spacer > div {
     background: rgba(255, 255, 255, 0.95); }
-  html[lang='li'] body .side .spacer .login-form-side {
+  html:lang(li) body .side .spacer .login-form-side {
     background: rgba(255, 255, 255, 0.95); }
-  html[lang='li'] body .side .spacer .titlebox .tagline .flairselector {
+  html:lang(li) body .side .spacer .titlebox .tagline .flairselector {
     border-color: #292f34;
     background: rgba(255, 255, 255, 0.95); }
-    html[lang='li'] body .side .spacer .titlebox .tagline .flairselector a {
+    html:lang(li) body .side .spacer .titlebox .tagline .flairselector a {
       color: skyblue !important; }
-  html[lang='li'] body .side .spacer .titlebox .tagline .flairoptionpane ul li:hover {
+  html:lang(li) body .side .spacer .titlebox .tagline .flairoptionpane ul li:hover {
     background: rgba(225, 225, 225, 0.95); }
-  html[lang='li'] body .side .spacer .titlebox .md a[href='https://www.reddit.com/r/bladeandsoul/']:hover,
-  html[lang='li'] body .side .spacer .titlebox .md a[href='https://li.reddit.com/r/bladeandsoul/']:hover {
+  html:lang(li) body .side .spacer .titlebox .md a[href='https://www.reddit.com/r/bladeandsoul/']:hover,
+  html:lang(li) body .side .spacer .titlebox .md a[href='https://li.reddit.com/r/bladeandsoul/']:hover {
     background-color: rgba(225, 225, 225, 0.95); }
-  html[lang='li'] body .side .spacer .titlebox .md a[href*='www.bladeandsoul.com'],
-  html[lang='li'] body .side .spacer .titlebox .md a[href*='bnstree.com'],
-  html[lang='li'] body .side .spacer .titlebox .md a[href*='discordapp.com'] {
+  html:lang(li) body .side .spacer .titlebox .md a[href*='www.bladeandsoul.com'],
+  html:lang(li) body .side .spacer .titlebox .md a[href*='bnstree.com'],
+  html:lang(li) body .side .spacer .titlebox .md a[href*='discordapp.com'] {
     background-image: url(%%side-icons-light%%); }
-    html[lang='li'] body .side .spacer .titlebox .md a[href*='www.bladeandsoul.com']:hover,
-    html[lang='li'] body .side .spacer .titlebox .md a[href*='bnstree.com']:hover,
-    html[lang='li'] body .side .spacer .titlebox .md a[href*='discordapp.com']:hover {
+    html:lang(li) body .side .spacer .titlebox .md a[href*='www.bladeandsoul.com']:hover,
+    html:lang(li) body .side .spacer .titlebox .md a[href*='bnstree.com']:hover,
+    html:lang(li) body .side .spacer .titlebox .md a[href*='discordapp.com']:hover {
       background-color: rgba(225, 225, 225, 0.95); }
-  html[lang='li'] body .side .spacer .titlebox .md h5 {
+  html:lang(li) body .side .spacer .titlebox .md h5 {
     background: rgba(255, 255, 255, 0.95); }
-  html[lang='li'] body #search input[type='text'] {
+  html:lang(li) body #search input[type='text'] {
     color: #292f34 !important;
     background: rgba(255, 255, 255, 0.95); }
-  html[lang='li'] body #search #searchexpando {
+  html:lang(li) body #search #searchexpando {
     background: #141414; }
-    html[lang='li'] body #search #searchexpando label {
+    html:lang(li) body #search #searchexpando label {
       color: #292f34; }
-  html[lang='li'] body .sitetable {
+  html:lang(li) body .sitetable {
     background: rgba(255, 255, 255, 0.95); }
-    html[lang='li'] body .sitetable.nestedlisting > .thing {
+    html:lang(li) body .sitetable.nestedlisting > .thing {
       background: rgba(255, 255, 255, 0.95) !important; }
-  html[lang='li'] body .organic-listing .link.promotedlink.promoted,
-  html[lang='li'] body .organic-listing .link.promotedlink.external {
+  html:lang(li) body .organic-listing .link.promotedlink.promoted,
+  html:lang(li) body .organic-listing .link.promotedlink.external {
     background: rgba(255, 255, 255, 0.95) !important; }
-  html[lang='li'] body .spacer .thing.link:hover {
+  html:lang(li) body .spacer .thing.link:hover {
     background: rgba(225, 225, 225, 0.95); }
-  html[lang='li'] body #progressIndicator,
-  html[lang='li'] body .NERPageMarker {
+  html:lang(li) body #progressIndicator,
+  html:lang(li) body .NERPageMarker {
     background: rgba(225, 225, 225, 0.95); }
-  html[lang='li'] body .RES-keyNav-activeElement,
-  html[lang='li'] body .RES-keyNav-activeElement .md-container {
+  html:lang(li) body .RES-keyNav-activeElement,
+  html:lang(li) body .RES-keyNav-activeElement .md-container {
     background: none !important; }
-  html[lang='li'] body.res-commentBoxes .comment .comment,
-  html[lang='li'] body.res-commentBoxes .comment .comment .comment .comment,
-  html[lang='li'] body.res-commentBoxes .comment .comment .comment .comment .comment .comment,
-  html[lang='li'] body.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment,
-  html[lang='li'] body.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+  html:lang(li) body.res-commentBoxes .comment .comment,
+  html:lang(li) body.res-commentBoxes .comment .comment .comment .comment,
+  html:lang(li) body.res-commentBoxes .comment .comment .comment .comment .comment .comment,
+  html:lang(li) body.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment,
+  html:lang(li) body.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
     background: rgba(225, 225, 225, 0.95) !important; }
-  html[lang='li'] body.res-commentBoxes .comment .comment .comment,
-  html[lang='li'] body.res-commentBoxes .comment .comment .comment .comment .comment,
-  html[lang='li'] body.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment,
-  html[lang='li'] body.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+  html:lang(li) body.res-commentBoxes .comment .comment .comment,
+  html:lang(li) body.res-commentBoxes .comment .comment .comment .comment .comment,
+  html:lang(li) body.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment,
+  html:lang(li) body.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment {
     background: rgba(255, 255, 255, 0.95) !important; }
-  html[lang='li'] body.res-commentBoxes .infobar {
+  html:lang(li) body.res-commentBoxes .infobar {
     background: rgba(180, 220, 240, 0.9); }
-  html[lang='li'] body.res-commentBoxes .comment .usertext.border .usertext-body {
+  html:lang(li) body.res-commentBoxes .comment .usertext.border .usertext-body {
     background: rgba(180, 220, 240, 0.9); }
-  html[lang='li'] body .usertext-edit .livePreview {
+  html:lang(li) body .usertext-edit .livePreview {
     background: rgba(255, 255, 255, 0.95); }
-  html[lang='li'] body .morelink {
+  html:lang(li) body .morelink {
     color: #292f34;
     background: rgba(255, 255, 255, 0.95); }
-    html[lang='li'] body .morelink:hover {
+    html:lang(li) body .morelink:hover {
       background: rgba(225, 225, 225, 0.95); }
-  html[lang='li'] body textarea:not(#BigText),
-  html[lang='li'] body #sr-autocomplete,
-  html[lang='li'] body .input {
+  html:lang(li) body textarea:not(#BigText),
+  html:lang(li) body #sr-autocomplete,
+  html:lang(li) body .input {
     background: rgba(225, 225, 225, 0.95);
     color: #292f34 !important; }
-  html[lang='li'] body .pretty-form input[type='text'],
-  html[lang='li'] body .pretty-form textarea,
-  html[lang='li'] body .pretty-form input[type='password'],
-  html[lang='li'] body .pretty-form input[type='number'] {
+  html:lang(li) body .pretty-form input[type='text'],
+  html:lang(li) body .pretty-form textarea,
+  html:lang(li) body .pretty-form input[type='password'],
+  html:lang(li) body .pretty-form input[type='number'] {
     background: rgba(225, 225, 225, 0.95);
     color: #292f34 !important; }
-  html[lang='li'] body .submit.content .info-notice {
+  html:lang(li) body .submit.content .info-notice {
     background: rgba(255, 255, 255, 0.95); }
-  html[lang='li'] body .roundfield {
+  html:lang(li) body .roundfield {
     background: rgba(255, 255, 255, 0.95); }
-  html[lang='li'] body .linefield,
-  html[lang='li'] body .linefield.mobile {
+  html:lang(li) body .linefield,
+  html:lang(li) body .linefield.mobile {
     background: rgba(255, 255, 255, 0.95); }
-  html[lang='li'] body #newlink-with-image-upload .image-upload-drop-target {
+  html:lang(li) body #newlink-with-image-upload .image-upload-drop-target {
     background: rgba(225, 225, 225, 0.95); }
-  html[lang='li'] body .stylesheet-customize-container {
+  html:lang(li) body .stylesheet-customize-container {
     background: rgba(255, 255, 255, 0.95); }
-  html[lang='li'] body.wiki-page .wiki-page-content {
+  html:lang(li) body.wiki-page .wiki-page-content {
+    background: rgba(255, 255, 255, 0.95); }
+  html:lang(li) body.search-page .searchpane {
+    background: rgba(255, 255, 255, 0.95); }
+    html:lang(li) body.search-page .searchpane #previoussearch input[type='text'] {
+      background: rgba(225, 225, 225, 0.95); }
+  html:lang(li) body.search-page .listing {
     background: rgba(255, 255, 255, 0.95); }
 
 body,
@@ -1144,6 +1182,15 @@ body.res-nightmode {
     background: rgba(50, 100, 140, 0.9); }
   body.wiki-page .wiki-page-content,
   body.res-nightmode.wiki-page .wiki-page-content {
+    background: rgba(30, 32, 35, 0.9); }
+  body.search-page .searchpane,
+  body.res-nightmode.search-page .searchpane {
+    background: rgba(30, 32, 35, 0.9); }
+    body.search-page .searchpane #previoussearch input[type='text'],
+    body.res-nightmode.search-page .searchpane #previoussearch input[type='text'] {
+      background: rgba(45, 50, 55, 0.9); }
+  body.search-page .listing,
+  body.res-nightmode.search-page .listing {
     background: rgba(30, 32, 35, 0.9); }
 
 .footer-parent {

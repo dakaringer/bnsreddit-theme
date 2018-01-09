@@ -1,0 +1,15 @@
+&.search-page {
+    .searchpane {
+        background: $ui-color-dark;
+
+        #previoussearch {
+            input[type='text'] {
+                background: $ui-color-hover-dark;
+            }
+        }
+    }
+
+    .listing {
+        background: $ui-color-dark;
+    }
+}

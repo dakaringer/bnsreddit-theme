@@ -75,14 +75,14 @@
     .comment .comment .comment .comment .comment .comment,
     .comment .comment .comment .comment .comment .comment .comment .comment,
     .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-        background: $ui-color-hover-light !important;
+        background: $ui-color-hover-dark !important;
     }
 
     .comment .comment .comment,
     .comment .comment .comment .comment .comment,
     .comment .comment .comment .comment .comment .comment .comment,
     .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-        background: $ui-color-light !important;
+        background: $ui-color-dark !important;
     }
 
     &.res-commentBoxes-rounded .comment {

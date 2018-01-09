@@ -8,7 +8,7 @@
     .link.promotedlink.external {
         margin-bottom: 1rem;
         padding: 1rem 0;
-        background: $ui-color-light !important;
+        background: $ui-color-dark !important;
         border: none !important;
     }
 }
@@ -130,7 +130,7 @@
     border-bottom: solid 0.1rem rgba(150, 150, 150, 0.2) !important;
 
     &.link:hover {
-        background: $ui-color-hover-light;
+        background: $ui-color-hover-dark;
     }
 }
 
@@ -158,7 +158,7 @@
 
 #progressIndicator,
 .NERPageMarker {
-    background: $ui-color-hover-light;
+    background: $ui-color-hover-dark;
     border: none;
     border-radius: 0.2rem;
 }

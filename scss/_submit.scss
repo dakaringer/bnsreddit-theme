@@ -5,7 +5,7 @@
     background: none !important;
 
     .info-notice {
-        background: $ui-color-light;
+        background: $ui-color-dark;
         border: none;
     }
 }
@@ -21,7 +21,7 @@
 }
 
 .roundfield {
-    background: $ui-color-light;
+    background: $ui-color-dark;
     border: none;
     border-radius: 0.2rem;
 
@@ -36,12 +36,12 @@
 }
 
 #newlink-with-image-upload .image-upload-drop-target {
-    background: $ui-color-hover-light;
+    background: $ui-color-hover-dark;
 }
 
 .linefield,
 .linefield.mobile {
-    background: $ui-color-light;
+    background: $ui-color-dark;
     border: none;
 }
 
@@ -62,7 +62,7 @@
         background: none !important;
         font-size: 1.6rem !important;
         text-transform: capitalize;
-        color: $text-color-light;
+        color: $text-color-dark;
     }
 
     .selected a {

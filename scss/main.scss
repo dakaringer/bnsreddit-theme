@@ -9,7 +9,7 @@ body {
     background-size: 100% auto;
     background-position: 0 -7rem;
     background-color: $background-color-dark;
-    color: $text-color-light;
+    color: $text-color-dark;
 }
 
 @import 'md';
@@ -24,6 +24,7 @@ body {
 @import 'flair';
 @import 'misc';
 @import 'wiki';
+@import 'search';
 @import './lightmode/theme';
 @import './nightmode/theme';
 

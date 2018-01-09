@@ -13,7 +13,7 @@
         margin: 0;
 
         & > div {
-            background: $ui-color-light;
+            background: $ui-color-dark;
             box-sizing: border-box;
             margin: 1rem 0;
             border-radius: 0.2rem;
@@ -22,7 +22,7 @@
         .login-form-side {
             margin: 1rem 0;
             border: none;
-            background: $ui-color-light;
+            background: $ui-color-dark;
         }
 
         .linkinfo {
@@ -171,8 +171,8 @@
                     left: 50% !important;
                     border: solid 0.1rem;
                     border-radius: 0.2rem;
-                    border-color: $text-color-light;
-                    background: $ui-color-light;
+                    border-color: $text-color-dark;
+                    background: $ui-color-dark;
 
                     h2 {
                         background: none;
@@ -195,7 +195,7 @@
                             border-color: transparent;
 
                             &:hover {
-                                background: $ui-color-hover-light;
+                                background: $ui-color-hover-dark;
                             }
                         }
                     }
@@ -242,7 +242,7 @@
                 line-height: 4rem;
 
                 &:hover {
-                    background-color: $ui-color-hover-light;
+                    background-color: $ui-color-hover-dark;
                 }
             }
 
@@ -256,14 +256,14 @@
                 display: block;
                 width: calc(100% - 4.5rem);
                 color: goldenrod !important;
-                background-image: url(%%side-icons-light%%);
+                background-image: url(%%side-icons-dark%%);
                 background-repeat: no-repeat;
                 padding-left: 4.5rem;
                 height: 4rem;
                 line-height: 4rem;
 
                 &:hover {
-                    background-color: $ui-color-hover-light;
+                    background-color: $ui-color-hover-dark;
                 }
             }
 
@@ -275,6 +275,18 @@
                 background-position: 0 -80px;
             }
 
+            table {
+                width: 100%;
+
+                thead {
+                    display: none;
+                }
+
+                td {
+                    border: none;
+                }
+            }
+
             h5 {
                 display: block;
                 overflow: hidden;
@@ -283,7 +295,7 @@
                 left: 1rem;
                 border-radius: 0.2rem;
                 padding: 0 1.5rem;
-                background: $ui-color-light;
+                background: $ui-color-dark;
                 color: #999;
                 right: 33rem;
                 font-size: 1.4rem;
@@ -327,8 +339,8 @@
         border: none;
         outline: none;
         border-radius: 0.2rem;
-        color: $text-color-light !important;
-        background: $ui-color-light;
+        color: $text-color-dark !important;
+        background: $ui-color-dark;
     }
 
     input::placeholder {
@@ -343,7 +355,7 @@
 
         label {
             display: flex;
-            color: $text-color-light;
+            color: $text-color-dark;
             padding: 1rem 0;
 
             input {
