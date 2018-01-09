@@ -1,7 +1,7 @@
 @import 'variables';
 
 html {
-    font-size: 10px;
+    font-size: 10px !important;
 }
 
 body {
@@ -23,6 +23,7 @@ body {
 @import 'submit';
 @import 'flair';
 @import 'misc';
+@import 'wiki';
 @import './lightmode/theme';
 @import './nightmode/theme';
 

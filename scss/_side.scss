@@ -143,7 +143,7 @@
                 }
 
                 .number:after {
-                    content: ' spending Christmas money on trove';
+                    content: ' spending money on trove';
                 }
 
                 .word {
@@ -228,51 +228,75 @@
             padding: 1rem;
             text-transform: capitalize;
         }
-    }
 
-    a[href='https://www.reddit.com/r/bladeandsoul/'],
-    a[href='https://li.reddit.com/r/bladeandsoul/'] {
-        color: goldenrod !important;
-        background-image: url(%%themes%%);
-        background-repeat: no-repeat;
-        display: inline-block;
-        padding-left: 4.5rem;
-        height: 4rem;
-        width: calc(50% - 4.75rem);
-        line-height: 4rem;
+        .md {
+            a[href='https://www.reddit.com/r/bladeandsoul/'],
+            a[href='https://li.reddit.com/r/bladeandsoul/'] {
+                color: goldenrod !important;
+                background-image: url(%%themes%%);
+                background-repeat: no-repeat;
+                display: inline-block;
+                padding-left: 4.5rem;
+                height: 4rem;
+                width: calc(50% - 4.75rem);
+                line-height: 4rem;
 
-        &:hover {
-            background-color: $ui-color-hover-light;
+                &:hover {
+                    background-color: $ui-color-hover-light;
+                }
+            }
+
+            a[href='https://li.reddit.com/r/bladeandsoul/'] {
+                background-position: 0 -40px;
+            }
+
+            a[href*='www.bladeandsoul.com'],
+            a[href*='bnstree.com'],
+            a[href*='discordapp.com'] {
+                display: block;
+                width: calc(100% - 4.5rem);
+                color: goldenrod !important;
+                background-image: url(%%side-icons-light%%);
+                background-repeat: no-repeat;
+                padding-left: 4.5rem;
+                height: 4rem;
+                line-height: 4rem;
+
+                &:hover {
+                    background-color: $ui-color-hover-light;
+                }
+            }
+
+            a[href*='bnstree.com'] {
+                background-position: 0 -40px;
+            }
+
+            a[href*='discordapp.com'] {
+                background-position: 0 -80px;
+            }
+
+            h5 {
+                display: block;
+                overflow: hidden;
+                position: absolute;
+                top: 36rem;
+                left: 1rem;
+                border-radius: 0.2rem;
+                padding: 0 1.5rem;
+                background: $ui-color-light;
+                color: #999;
+                right: 33rem;
+                font-size: 1.4rem;
+                height: 4rem;
+                line-height: 4rem;
+                text-decoration: none;
+                font-weight: normal;
+
+                strong {
+                    color: dodgerblue;
+                }
+            }
         }
-    }
-
-    a[href='https://li.reddit.com/r/bladeandsoul/'] {
-        background-position: 0 -40px;
-    }
-
-    a[href*='www.bladeandsoul.com'],
-    a[href*='bnstree.com'],
-    a[href*='discordapp.com'] {
-        display: block;
-        width: calc(100% - 4.5rem);
-        color: goldenrod !important;
-        background-image: url(%%side-icons-light%%);
-        background-repeat: no-repeat;
-        padding-left: 4.5rem;
-        height: 4rem;
-        line-height: 4rem;
-
-        &:hover {
-            background-color: $ui-color-hover-light;
-        }
-    }
-
-    a[href*='bnstree.com'] {
-        background-position: 0 -40px;
-    }
-
-    a[href*='discordapp.com'] {
-        background-position: 0 -80px;
     }
 
     &:after {

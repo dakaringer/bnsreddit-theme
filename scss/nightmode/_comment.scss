@@ -1,24 +1,26 @@
-.comment .comment,
-.comment .comment .comment .comment,
-.comment .comment .comment .comment .comment .comment,
-.comment .comment .comment .comment .comment .comment .comment .comment,
-.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-    background: $ui-color-hover-dark !important;
-}
+&.res-commentBoxes {
+    .comment .comment,
+    .comment .comment .comment .comment,
+    .comment .comment .comment .comment .comment .comment,
+    .comment .comment .comment .comment .comment .comment .comment .comment,
+    .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+        background: $ui-color-hover-dark !important;
+    }
 
-.comment .comment .comment,
-.comment .comment .comment .comment .comment,
-.comment .comment .comment .comment .comment .comment .comment,
-.comment .comment .comment .comment .comment .comment .comment .comment .comment {
-    background: $ui-color-dark !important;
-}
+    .comment .comment .comment,
+    .comment .comment .comment .comment .comment,
+    .comment .comment .comment .comment .comment .comment .comment,
+    .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+        background: $ui-color-dark !important;
+    }
 
-.infobar {
-    background: $highlight-color-dark;
-}
-
-.comment {
-    .usertext.border .usertext-body {
+    .infobar {
         background: $highlight-color-dark;
+    }
+
+    .comment {
+        .usertext.border .usertext-body {
+            background: $highlight-color-dark;
+        }
     }
 }

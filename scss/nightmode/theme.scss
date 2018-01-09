@@ -14,9 +14,6 @@ body.res-nightmode {
     @import 'input';
     @import 'submit';
     @import 'misc';
-}
-
-body.res-commentBoxes,
-body.res-nightmode.res-commentBoxes {
     @import 'comment';
+    @import 'wiki';
 }

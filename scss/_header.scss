@@ -15,14 +15,23 @@
             background: url(%%bns-logo-winter%%) left center no-repeat;
             text-indent: -999rem;
             position: absolute;
-            left: 13rem;
-            width: 50rem;
+            left: 12rem;
+            width: 40rem;
             height: 20rem;
             bottom: 5rem;
         }
     }
 
     #header-bottom-left {
+        #header-img.default-header {
+            background: url(%%reddit-logo%%);
+            position: absolute;
+            top: 20rem;
+            left: 3rem;
+            width: 8rem;
+            height: 8rem;
+        }
+
         .tabmenu {
             display: flex;
             width: calc(100% - 2.5rem);
@@ -40,7 +49,7 @@
                 a {
                     background: none;
                     text-transform: capitalize;
-                    color: #aaa;
+                    color: #999;
                     font-weight: bold;
                     font-size: 1.4rem;
                     padding: 0.4rem 1.5rem;
@@ -54,7 +63,7 @@
                     background: none;
                     border: none;
                     border-bottom: solid 0.2rem dodgerblue;
-                    color: dodgerblue;
+                    color: dodgerblue !important;
                     font-weight: bold;
                 }
 
