@@ -1,7 +1,7 @@
 .side {
-    margin-top: 11rem;
-    margin-bottom: 3rem;
-    padding: 1rem;
+    margin-top: 110px;
+    margin-bottom: 30px;
+    padding: 10px;
     display: flex;
     flex-wrap: wrap;
     background: none;
@@ -15,12 +15,12 @@
         & > div {
             background: $ui-color-dark;
             box-sizing: border-box;
-            margin: 1rem 0;
-            border-radius: 0.2rem;
+            margin: 10px 0;
+            border-radius: 2px;
         }
 
         .login-form-side {
-            margin: 1rem 0;
+            margin: 10px 0;
             border: none;
             background: $ui-color-dark;
         }
@@ -32,14 +32,14 @@
 
         .submit.submit-link,
         .submit.submit-text {
-            width: 14.5rem;
+            width: 145px;
             position: absolute;
             background: none;
-            top: 37rem;
+            top: 370px;
             margin: 0;
 
             .morelink {
-                padding: 0.1rem 0;
+                padding: 1px 0;
 
                 a {
                     font-weight: bold;
@@ -48,29 +48,29 @@
             }
 
             &.submit-link {
-                right: 17rem;
+                right: 170px;
             }
 
             &.submit-text {
-                right: 1.5rem;
+                right: 15px;
             }
         }
 
         #search {
             position: absolute;
-            top: 42rem;
+            top: 420px;
         }
 
         .titlebox {
             display: flex;
             flex-direction: column;
-            padding: 1rem;
+            padding: 10px;
 
             &:before {
                 content: 'Subreddit Info';
                 text-align: center;
-                font-size: 1.6rem;
-                margin-bottom: 1rem;
+                font-size: 16px;
+                margin-bottom: 10px;
                 font-weight: bold;
             }
 
@@ -88,13 +88,13 @@
             .subscribe-button {
                 width: 100%;
                 text-align: center;
-                margin: 1rem;
+                margin: 10px;
                 text-transform: capitalize;
 
                 a {
-                    font-size: 1.6rem;
+                    font-size: 16px;
                     border: none;
-                    padding: 0.2rem 1rem;
+                    padding: 2px 10px;
                     color: #eee !important;
                 }
 
@@ -121,7 +121,7 @@
 
             .subscribers {
                 order: 1;
-                font-size: 1.6rem;
+                font-size: 16px;
                 text-align: center;
 
                 .word {
@@ -166,18 +166,18 @@
 
                 .flairselector {
                     box-shadow: none;
-                    padding: 2rem !important;
+                    padding: 20px !important;
                     transform: translateX(-50%);
                     left: 50% !important;
-                    border: solid 0.1rem;
-                    border-radius: 0.2rem;
+                    border: solid 1px;
+                    border-radius: 2px;
                     border-color: $text-color-dark;
                     background: $ui-color-dark;
 
                     h2 {
                         background: none;
                         text-transform: capitalize;
-                        padding-bottom: 1rem;
+                        padding-bottom: 10px;
                     }
                 }
 
@@ -185,7 +185,7 @@
                     display: flex;
                     max-height: initial;
                     justify-content: space-between;
-                    margin-bottom: 1.5rem;
+                    margin-bottom: 15px;
                     border: none;
 
                     ul {
@@ -212,7 +212,7 @@
         }
 
         .sidecontentbox {
-            padding: 0.5rem;
+            padding: 5px;
 
             .collapse-button {
                 display: none;
@@ -225,7 +225,7 @@
         }
 
         .account-activity-box {
-            padding: 1rem;
+            padding: 10px;
             text-transform: capitalize;
         }
 
@@ -236,10 +236,10 @@
                 background-image: url(%%themes%%);
                 background-repeat: no-repeat;
                 display: inline-block;
-                padding-left: 4.5rem;
-                height: 4rem;
-                width: calc(50% - 4.75rem);
-                line-height: 4rem;
+                padding-left: 45px;
+                height: 40px;
+                width: calc(50% - 47.5px);
+                line-height: 40px;
 
                 &:hover {
                     background-color: $ui-color-hover-dark;
@@ -254,13 +254,13 @@
             a[href*='bnstree.com'],
             a[href*='discordapp.com'] {
                 display: block;
-                width: calc(100% - 4.5rem);
+                width: calc(100% - 45px);
                 color: goldenrod !important;
                 background-image: url(%%side-icons-dark%%);
                 background-repeat: no-repeat;
-                padding-left: 4.5rem;
-                height: 4rem;
-                line-height: 4rem;
+                padding-left: 45px;
+                height: 40px;
+                line-height: 40px;
 
                 &:hover {
                     background-color: $ui-color-hover-dark;
@@ -291,16 +291,16 @@
                 display: block;
                 overflow: hidden;
                 position: absolute;
-                top: 36rem;
-                left: 1rem;
-                border-radius: 0.2rem;
-                padding: 0 1.5rem;
+                top: 360px;
+                left: 10px;
+                border-radius: 2px;
+                padding: 0 15px;
                 background: $ui-color-dark;
                 color: #999;
-                right: 33rem;
-                font-size: 1.4rem;
-                height: 4rem;
-                line-height: 4rem;
+                right: 330px;
+                font-size: 14px;
+                height: 40px;
+                line-height: 40px;
                 text-decoration: none;
                 font-weight: normal;
 
@@ -329,16 +329,16 @@
     form input[type='checkbox'],
     form input[type='radio'] {
         margin: 0;
-        margin-right: 0.5rem;
+        margin-right: 5px;
     }
 }
 
 #search {
     input[type='text'] {
-        height: 4rem;
+        height: 40px;
         border: none;
         outline: none;
-        border-radius: 0.2rem;
+        border-radius: 2px;
         color: $text-color-dark !important;
         background: $ui-color-dark;
     }
@@ -350,16 +350,16 @@
     #searchexpando {
         background: rgba(255, 255, 255, 1);
         border: none;
-        border-radius: 0.2rem;
-        height: 27rem;
+        border-radius: 2px;
+        height: 270px;
 
         label {
             display: flex;
             color: $text-color-dark;
-            padding: 1rem 0;
+            padding: 10px 0;
 
             input {
-                margin: 0.2rem;
+                margin: 2px;
             }
         }
     }

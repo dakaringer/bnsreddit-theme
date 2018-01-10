@@ -23,7 +23,7 @@
 .roundfield {
     background: $ui-color-dark;
     border: none;
-    border-radius: 0.2rem;
+    border-radius: 2px;
 
     #suggested-reddits {
         display: none;
@@ -60,13 +60,13 @@
     a {
         border: none;
         background: none !important;
-        font-size: 1.6rem !important;
+        font-size: 16px !important;
         text-transform: capitalize;
         color: $text-color-dark;
     }
 
     .selected a {
-        border-bottom: solid 0.2rem dodgerblue !important;
+        border-bottom: solid 2px dodgerblue !important;
         color: dodgerblue;
         text-transform: capitalize;
     }

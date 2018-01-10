@@ -1,7 +1,7 @@
 @import 'sr-header';
 
 #header {
-    height: 35rem;
+    height: 350px;
     background: none !important;
     border: none;
     position: relative;
@@ -13,12 +13,12 @@
         a {
             visibility: visible;
             background: url(%%bns-logo-winter%%) left center no-repeat;
-            text-indent: -999rem;
+            text-indent: -9990px;
             position: absolute;
-            left: 12rem;
-            width: 40rem;
-            height: 20rem;
-            bottom: 5rem;
+            left: 120px;
+            width: 400px;
+            height: 200px;
+            bottom: 50px;
         }
     }
 
@@ -26,22 +26,22 @@
         #header-img.default-header {
             background: url(%%reddit-logo%%);
             position: absolute;
-            top: 20rem;
-            left: 3rem;
-            width: 8rem;
-            height: 8rem;
+            top: 200px;
+            left: 30px;
+            width: 80px;
+            height: 80px;
         }
 
         .tabmenu {
             display: flex;
-            width: calc(100% - 2.5rem);
+            width: calc(100% - 25px);
             position: absolute;
             bottom: 0;
             background: $ui-color-dark;
-            height: 3rem;
+            height: 30px;
             align-items: center;
-            margin: 0 1rem;
-            border-radius: 0.2rem;
+            margin: 0 10px;
+            border-radius: 2px;
 
             li {
                 margin: 0;
@@ -51,8 +51,8 @@
                     text-transform: capitalize;
                     color: #999;
                     font-weight: bold;
-                    font-size: 1.4rem;
-                    padding: 0.4rem 1.5rem;
+                    font-size: 14px;
+                    padding: 4px 15px;
 
                     &:hover {
                         color: $highlight-color;
@@ -62,7 +62,7 @@
                 &.selected a {
                     background: none;
                     border: none;
-                    border-bottom: solid 0.2rem dodgerblue;
+                    border-bottom: solid 2px dodgerblue;
                     color: dodgerblue !important;
                     font-weight: bold;
                 }
@@ -77,9 +77,9 @@
 
     #header-bottom-right {
         background: none;
-        font-size: 1.4rem;
-        padding: 0.5rem 2.5rem;
-        margin-bottom: 0.1rem;
+        font-size: 14px;
+        padding: 5px 25px;
+        margin-bottom: 1px;
         bottom: 0 !important;
         top: auto !important;
     }

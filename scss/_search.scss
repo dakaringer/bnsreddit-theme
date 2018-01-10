@@ -1,11 +1,11 @@
 body.search-page {
     .side {
-        margin-top: 5rem;
+        margin-top: 50px;
     }
 
     .searchpane {
         width: 100%;
-        padding: 1rem;
+        padding: 10px;
         margin: 0;
         box-sizing: border-box;
         background: $ui-color-dark;
@@ -26,7 +26,7 @@ body.search-page {
         background: $ui-color-dark;
 
         .search-result-group {
-            padding: 1rem;
+            padding: 10px;
             max-width: 100%;
             min-width: auto;
 

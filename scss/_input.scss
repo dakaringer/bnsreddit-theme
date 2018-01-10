@@ -1,6 +1,6 @@
 .usertext-edit {
     width: 99%;
-    max-width: 80rem;
+    max-width: 800px;
 
     textarea {
         width: 100%;
@@ -14,8 +14,8 @@
 textarea:not(#BigText),
 #sr-autocomplete,
 .input {
-    padding: 0.5rem;
-    border-radius: 0.2rem;
+    padding: 5px;
+    border-radius: 2px;
     box-sizing: border-box;
     outline: none;
     box-shadow: none;
@@ -44,7 +44,7 @@ textarea:not(#BigText) {
     color: #eee;
     border: none !important;
     outline: none;
-    padding: 0.5rem 1rem;
+    padding: 5px 10px;
     text-transform: capitalize;
     transition: all 0.2s;
 
@@ -57,7 +57,7 @@ textarea:not(#BigText) {
     color: $text-color-dark;
     background: $ui-color-dark;
     border: none;
-    border-radius: 0.2rem;
+    border-radius: 2px;
     transition: all 0.2s;
 
     a {

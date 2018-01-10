@@ -1,25 +1,25 @@
 #sr-header-area,
 .res-nightmode #sr-header-area {
     border: none;
-    padding: 0.1rem;
+    padding: 1px;
 
     &,
     .width-clip,
     .drop-choices {
         background: $ui-color-dark;
-        max-height: 30rem;
+        max-height: 300px;
         overflow: auto;
     }
 
     .sr-drop {
         .choice {
-            margin: 0.2rem 0;
+            margin: 2px 0;
         }
 
         .choice.bottom-option {
-            margin-top: 0.5rem;
-            padding-top: 0.5rem;
-            border-top: solid 0.1rem rgba(255, 255, 255, 0.5);
+            margin-top: 5px;
+            padding-top: 5px;
+            border-top: solid 1px rgba(255, 255, 255, 0.5);
         }
     }
 
@@ -46,7 +46,7 @@
     }
 
     .sr-list {
-        margin-right: 5rem;
+        margin-right: 50px;
     }
 
     #RESShortcutsEditContainer {

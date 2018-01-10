@@ -1,17 +1,17 @@
 .wiki-page {
     & > .content > span {
         position: absolute;
-        top: 43.5rem;
+        top: 435px;
     }
 
     .wiki-page-content {
         margin: 0;
-        padding: 2rem;
+        padding: 20px;
         background: $ui-color-dark;
 
         .md {
             position: relative;
-            padding-right: 25rem;
+            padding-right: 250px;
 
             .toc {
                 position: absolute;

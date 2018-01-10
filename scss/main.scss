@@ -7,7 +7,7 @@ html {
 body {
     background: $background-dark no-repeat;
     background-size: 100% auto;
-    background-position: 0 -7rem;
+    background-position: 0 -70px;
     background-color: $background-color-dark;
     color: $text-color-dark;
 }
@@ -30,8 +30,8 @@ body {
 
 .footer-parent {
     background: rgba(30, 32, 35, 0.9);
-    padding-bottom: 2rem;
-    margin-bottom: -1rem;
+    padding-bottom: 20px;
+    margin-bottom: -10px;
 
     .footer {
         border: none;
