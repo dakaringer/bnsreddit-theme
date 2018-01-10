@@ -4,7 +4,7 @@ html {
 body {
   background: url(%%background-dark%%) no-repeat;
   background-size: 100% auto;
-  background-position: 0 -7rem;
+  background-position: 0 -70px;
   background-color: #111111;
   color: #eeeeee; }
 
@@ -13,7 +13,7 @@ body {
   .md:not(#BigPreview) .-lists,
   .md:not(#BigPreview) ul,
   .md:not(#BigPreview) ol {
-    padding-left: 2rem; }
+    padding-left: 20px; }
   .md:not(#BigPreview) blockquote,
   .md:not(#BigPreview) del {
     color: #777; }
@@ -25,7 +25,7 @@ body {
 #sr-header-area,
 .res-nightmode #sr-header-area {
   border: none;
-  padding: 0.1rem; }
+  padding: 1px; }
   #sr-header-area,
   #sr-header-area .width-clip,
   #sr-header-area .drop-choices,
@@ -33,16 +33,16 @@ body {
   .res-nightmode #sr-header-area .width-clip,
   .res-nightmode #sr-header-area .drop-choices {
     background: rgba(30, 32, 35, 0.9);
-    max-height: 30rem;
+    max-height: 300px;
     overflow: auto; }
   #sr-header-area .sr-drop .choice,
   .res-nightmode #sr-header-area .sr-drop .choice {
-    margin: 0.2rem 0; }
+    margin: 2px 0; }
   #sr-header-area .sr-drop .choice.bottom-option,
   .res-nightmode #sr-header-area .sr-drop .choice.bottom-option {
-    margin-top: 0.5rem;
-    padding-top: 0.5rem;
-    border-top: solid 0.1rem rgba(255, 255, 255, 0.5); }
+    margin-top: 5px;
+    padding-top: 5px;
+    border-top: solid 1px rgba(255, 255, 255, 0.5); }
   #sr-header-area .title,
   #sr-header-area a,
   .res-nightmode #sr-header-area .title,
@@ -67,7 +67,7 @@ body {
     font-weight: normal; }
   #sr-header-area .sr-list,
   .res-nightmode #sr-header-area .sr-list {
-    margin-right: 5rem; }
+    margin-right: 50px; }
   #sr-header-area #RESShortcutsEditContainer,
   .res-nightmode #sr-header-area #RESShortcutsEditContainer {
     height: 100%; }
@@ -91,7 +91,7 @@ body {
       background: rgba(45, 50, 55, 0.9); }
 
 #header {
-  height: 35rem;
+  height: 350px;
   background: none !important;
   border: none;
   position: relative;
@@ -101,29 +101,29 @@ body {
     #header .pagename a {
       visibility: visible;
       background: url(%%bns-logo-winter%%) left center no-repeat;
-      text-indent: -999rem;
+      text-indent: -9990px;
       position: absolute;
-      left: 12rem;
-      width: 40rem;
-      height: 20rem;
-      bottom: 5rem; }
+      left: 120px;
+      width: 400px;
+      height: 200px;
+      bottom: 50px; }
   #header #header-bottom-left #header-img.default-header {
     background: url(%%reddit-logo%%);
     position: absolute;
-    top: 20rem;
-    left: 3rem;
-    width: 8rem;
-    height: 8rem; }
+    top: 200px;
+    left: 30px;
+    width: 80px;
+    height: 80px; }
   #header #header-bottom-left .tabmenu {
     display: flex;
-    width: calc(100% - 2.5rem);
+    width: calc(100% - 25px);
     position: absolute;
     bottom: 0;
     background: rgba(30, 32, 35, 0.9);
-    height: 3rem;
+    height: 30px;
     align-items: center;
-    margin: 0 1rem;
-    border-radius: 0.2rem; }
+    margin: 0 10px;
+    border-radius: 2px; }
     #header #header-bottom-left .tabmenu li {
       margin: 0; }
       #header #header-bottom-left .tabmenu li a {
@@ -131,30 +131,30 @@ body {
         text-transform: capitalize;
         color: #999;
         font-weight: bold;
-        font-size: 1.4rem;
-        padding: 0.4rem 1.5rem; }
+        font-size: 14px;
+        padding: 4px 15px; }
         #header #header-bottom-left .tabmenu li a:hover {
           color: skyblue; }
       #header #header-bottom-left .tabmenu li.selected a {
         background: none;
         border: none;
-        border-bottom: solid 0.2rem dodgerblue;
+        border-bottom: solid 2px dodgerblue;
         color: dodgerblue !important;
         font-weight: bold; }
-      #header #header-bottom-left .tabmenu li:nth-child(4), #header #header-bottom-left .tabmenu li:nth-child(7) {
+      #header #header-bottom-left .tabmenu li:nth-child(4) {
         display: none; }
   #header #header-bottom-right {
     background: none;
-    font-size: 1.4rem;
-    padding: 0.5rem 2.5rem;
-    margin-bottom: 0.1rem;
+    font-size: 14px;
+    padding: 5px 25px;
+    margin-bottom: 1px;
     bottom: 0 !important;
     top: auto !important; }
 
 .side {
-  margin-top: 11rem;
-  margin-bottom: 3rem;
-  padding: 1rem;
+  margin-top: 110px;
+  margin-bottom: 30px;
+  padding: 10px;
   display: flex;
   flex-wrap: wrap;
   background: none;
@@ -166,10 +166,10 @@ body {
     .side .spacer > div {
       background: rgba(30, 32, 35, 0.9);
       box-sizing: border-box;
-      margin: 1rem 0;
-      border-radius: 0.2rem; }
+      margin: 10px 0;
+      border-radius: 2px; }
     .side .spacer .login-form-side {
-      margin: 1rem 0;
+      margin: 10px 0;
       border: none;
       background: rgba(30, 32, 35, 0.9); }
     .side .spacer .linkinfo {
@@ -177,36 +177,36 @@ body {
       text-transform: capitalize; }
     .side .spacer .submit.submit-link,
     .side .spacer .submit.submit-text {
-      width: 14.5rem;
+      width: 145px;
       position: absolute;
       background: none;
-      top: 37rem;
+      top: 370px;
       margin: 0; }
       .side .spacer .submit.submit-link .morelink,
       .side .spacer .submit.submit-text .morelink {
-        padding: 0.1rem 0; }
+        padding: 1px 0; }
         .side .spacer .submit.submit-link .morelink a,
         .side .spacer .submit.submit-text .morelink a {
           font-weight: bold;
           color: goldenrod; }
       .side .spacer .submit.submit-link.submit-link,
       .side .spacer .submit.submit-text.submit-link {
-        right: 17rem; }
+        right: 170px; }
       .side .spacer .submit.submit-link.submit-text,
       .side .spacer .submit.submit-text.submit-text {
-        right: 1.5rem; }
+        right: 15px; }
     .side .spacer #search {
       position: absolute;
-      top: 42rem; }
+      top: 420px; }
     .side .spacer .titlebox {
       display: flex;
       flex-direction: column;
-      padding: 1rem; }
+      padding: 10px; }
       .side .spacer .titlebox:before {
         content: 'Subreddit Info';
         text-align: center;
-        font-size: 1.6rem;
-        margin-bottom: 1rem;
+        font-size: 16px;
+        margin-bottom: 10px;
         font-weight: bold; }
       .side .spacer .titlebox .redditname {
         display: none; }
@@ -218,12 +218,12 @@ body {
       .side .spacer .titlebox .subscribe-button {
         width: 100%;
         text-align: center;
-        margin: 1rem;
+        margin: 10px;
         text-transform: capitalize; }
         .side .spacer .titlebox .subscribe-button a {
-          font-size: 1.6rem;
+          font-size: 16px;
           border: none;
-          padding: 0.2rem 1rem;
+          padding: 2px 10px;
           color: #eee !important; }
         .side .spacer .titlebox .subscribe-button .remove {
           background: #aaa; }
@@ -239,7 +239,7 @@ body {
         background: none; }
       .side .spacer .titlebox .subscribers {
         order: 1;
-        font-size: 1.6rem;
+        font-size: 16px;
         text-align: center; }
         .side .spacer .titlebox .subscribers .word {
           display: none; }
@@ -265,22 +265,22 @@ body {
         order: 6; }
         .side .spacer .titlebox .tagline .flairselector {
           box-shadow: none;
-          padding: 2rem !important;
+          padding: 20px !important;
           transform: translateX(-50%);
           left: 50% !important;
-          border: solid 0.1rem;
-          border-radius: 0.2rem;
+          border: solid 1px;
+          border-radius: 2px;
           border-color: #eeeeee;
           background: rgba(30, 32, 35, 0.9); }
           .side .spacer .titlebox .tagline .flairselector h2 {
             background: none;
             text-transform: capitalize;
-            padding-bottom: 1rem; }
+            padding-bottom: 10px; }
         .side .spacer .titlebox .tagline .flairoptionpane {
           display: flex;
           max-height: initial;
           justify-content: space-between;
-          margin-bottom: 1.5rem;
+          margin-bottom: 15px;
           border: none; }
           .side .spacer .titlebox .tagline .flairoptionpane ul {
             float: none !important; }
@@ -293,14 +293,14 @@ body {
       .side .spacer .titlebox .bottom {
         display: none; }
     .side .spacer .sidecontentbox {
-      padding: 0.5rem; }
+      padding: 5px; }
       .side .spacer .sidecontentbox .collapse-button {
         display: none; }
       .side .spacer .sidecontentbox .content {
         border: none;
         background: none !important; }
     .side .spacer .account-activity-box {
-      padding: 1rem;
+      padding: 10px;
       text-transform: capitalize; }
     .side .spacer .md a[href='https://www.reddit.com/r/bladeandsoul/'],
     .side .spacer .md a[href='https://li.reddit.com/r/bladeandsoul/'] {
@@ -308,10 +308,10 @@ body {
       background-image: url(%%themes%%);
       background-repeat: no-repeat;
       display: inline-block;
-      padding-left: 4.5rem;
-      height: 4rem;
-      width: calc(50% - 4.75rem);
-      line-height: 4rem; }
+      padding-left: 45px;
+      height: 40px;
+      width: calc(50% - 47.5px);
+      line-height: 40px; }
       .side .spacer .md a[href='https://www.reddit.com/r/bladeandsoul/']:hover,
       .side .spacer .md a[href='https://li.reddit.com/r/bladeandsoul/']:hover {
         background-color: rgba(45, 50, 55, 0.9); }
@@ -321,13 +321,13 @@ body {
     .side .spacer .md a[href*='bnstree.com'],
     .side .spacer .md a[href*='discordapp.com'] {
       display: block;
-      width: calc(100% - 4.5rem);
+      width: calc(100% - 45px);
       color: goldenrod !important;
       background-image: url(%%side-icons-dark%%);
       background-repeat: no-repeat;
-      padding-left: 4.5rem;
-      height: 4rem;
-      line-height: 4rem; }
+      padding-left: 45px;
+      height: 40px;
+      line-height: 40px; }
       .side .spacer .md a[href*='www.bladeandsoul.com']:hover,
       .side .spacer .md a[href*='bnstree.com']:hover,
       .side .spacer .md a[href*='discordapp.com']:hover {
@@ -346,16 +346,16 @@ body {
       display: block;
       overflow: hidden;
       position: absolute;
-      top: 36rem;
-      left: 1rem;
-      border-radius: 0.2rem;
-      padding: 0 1.5rem;
+      top: 360px;
+      left: 10px;
+      border-radius: 2px;
+      padding: 0 15px;
       background: rgba(30, 32, 35, 0.9);
       color: #999;
-      right: 33rem;
-      font-size: 1.4rem;
-      height: 4rem;
-      line-height: 4rem;
+      right: 330px;
+      font-size: 14px;
+      height: 40px;
+      line-height: 40px;
       text-decoration: none;
       font-weight: normal; }
       .side .spacer .md h5 strong {
@@ -372,13 +372,13 @@ body {
   .side form input[type='checkbox'],
   .side form input[type='radio'] {
     margin: 0;
-    margin-right: 0.5rem; }
+    margin-right: 5px; }
 
 #search input[type='text'] {
-  height: 4rem;
+  height: 40px;
   border: none;
   outline: none;
-  border-radius: 0.2rem;
+  border-radius: 2px;
   color: #eeeeee !important;
   background: rgba(30, 32, 35, 0.9); }
 
@@ -388,14 +388,14 @@ body {
 #search #searchexpando {
   background: white;
   border: none;
-  border-radius: 0.2rem;
-  height: 27rem; }
+  border-radius: 2px;
+  height: 270px; }
   #search #searchexpando label {
     display: flex;
     color: #eeeeee;
-    padding: 1rem 0; }
+    padding: 10px 0; }
     #search #searchexpando label input {
-      margin: 0.2rem; }
+      margin: 2px; }
 
 .search-result :visited,
 .search-result :visited > mark {
@@ -406,20 +406,20 @@ body {
 
 body > .content {
   margin: 0;
-  margin-top: -7rem;
-  padding: 14rem 33rem 5rem 1rem !important;
-  background: linear-gradient(to bottom, transparent 0%, rgba(17, 17, 17, 0.9) 5rem, #111111 100%) !important; }
+  margin-top: -70px;
+  padding: 140px 330px 50px 10px !important;
+  background: linear-gradient(to bottom, transparent 0%, rgba(17, 17, 17, 0.9) 50px, #111111 100%) !important; }
   body > .content > .spacer {
     margin: 0; }
   body > .content .link .rank {
     display: none; }
 
 .res-commentBoxes body > .content {
-  padding-right: 33rem !important; }
+  padding-right: 330px !important; }
 
 .sitetable {
   background: rgba(30, 32, 35, 0.9);
-  border-radius: 0.2rem; }
+  border-radius: 2px; }
   .sitetable.nestedlisting {
     background: none !important;
     padding: 0; }
@@ -430,16 +430,16 @@ body > .content {
   background: none !important;
   margin: 0;
   border: none;
-  border-radius: 0.2rem; }
+  border-radius: 2px; }
   .organic-listing .link.promotedlink.promoted,
   .organic-listing .link.promotedlink.external {
-    margin-bottom: 1rem;
-    padding: 1rem 0;
+    margin-bottom: 10px;
+    padding: 10px 0;
     background: rgba(30, 32, 35, 0.9) !important;
     border: none !important; }
 
 .thing {
-  padding: 1.2rem 0;
+  padding: 12px 0;
   margin: 0;
   transition: all 0.2s; }
   .thing .title {
@@ -455,8 +455,8 @@ body > .content {
     background-image: url(%%expand%%) !important;
     background-repeat: no-repeat;
     background-size: auto !important;
-    height: 1.6rem;
-    width: 1.6rem;
+    height: 16px;
+    width: 16px;
     transition: none; }
     .thing .expando-button:hover {
       background-color: dodgerblue; }
@@ -485,17 +485,17 @@ body > .content {
       .thing .expando-button.expanded:hover {
         background-position: -48px -0px; }
   .thing .tagline {
-    margin-top: 0.5rem;
+    margin-top: 5px;
     display: inline-block; }
   .thing .flat-list {
-    margin-top: 0.2rem; }
+    margin-top: 2px; }
   .thing .midcol {
-    width: 3rem !important;
-    margin-right: 1rem;
-    margin-left: 1.5rem; }
+    width: 30px !important;
+    margin-right: 10px;
+    margin-left: 15px; }
   .thing .thumbnail {
-    margin: 0 1rem;
-    max-height: 6rem; }
+    margin: 0 10px;
+    max-height: 60px; }
     .thing .thumbnail.self {
       background-image: url(%%default-thumb%%);
       background-position: 0px 0px;
@@ -507,7 +507,7 @@ body > .content {
     background: none; }
 
 .spacer .thing {
-  border-bottom: solid 0.1rem rgba(150, 150, 150, 0.2) !important; }
+  border-bottom: solid 1px rgba(150, 150, 150, 0.2) !important; }
   .spacer .thing.link:hover {
     background: rgba(45, 50, 55, 0.9); }
 
@@ -525,13 +525,13 @@ body > .content {
 .RES-keyNav-activeElement,
 .RES-keyNav-activeElement .md-container {
   background: none !important;
-  border-right: solid 0.1rem rgba(0, 0, 0, 0.1); }
+  border-right: solid 1px rgba(0, 0, 0, 0.1); }
 
 #progressIndicator,
 .NERPageMarker {
   background: rgba(45, 50, 55, 0.9);
   border: none;
-  border-radius: 0.2rem; }
+  border-radius: 2px; }
 
 .panestack-title {
   border: none;
@@ -549,13 +549,13 @@ body > .content {
 .res-commentBoxes .comment {
   border: none !important;
   position: relative;
-  padding: 0.5rem !important;
-  margin: 1rem 0 !important; }
+  padding: 5px !important;
+  margin: 10px 0 !important; }
   .comment .midcol,
   .content .details .midcol,
   .res-commentBoxes .comment .midcol {
-    margin-left: 3rem;
-    margin-top: 0.5rem; }
+    margin-left: 30px;
+    margin-top: 5px; }
 
 .comment span.score {
   color: #777; }
@@ -566,19 +566,19 @@ body > .content {
 .comment .child,
 .comment .showreplies {
   border: none;
-  margin-top: 1rem;
-  margin-left: 2rem; }
+  margin-top: 10px;
+  margin-left: 20px; }
 
 .comment .expand {
   position: absolute;
   top: 0;
   left: 0;
-  height: calc(100% - 0.8rem);
-  padding: 0.4rem;
-  padding-right: 0.7rem;
+  height: calc(100% - 8px);
+  padding: 4px;
+  padding-right: 7px;
   color: #777;
-  border-left: solid 0.2rem dodgerblue;
-  min-height: 2rem; }
+  border-left: solid 2px dodgerblue;
+  min-height: 20px; }
   .comment .expand:hover {
     background: dodgerblue;
     color: #eee !important;
@@ -643,7 +643,7 @@ a.author {
 
 .usertext-edit {
   width: 99%;
-  max-width: 80rem; }
+  max-width: 800px; }
   .usertext-edit textarea {
     width: 100%; }
   .usertext-edit .livePreview {
@@ -652,8 +652,8 @@ a.author {
 textarea:not(#BigText),
 #sr-autocomplete,
 .input {
-  padding: 0.5rem;
-  border-radius: 0.2rem;
+  padding: 5px;
+  border-radius: 2px;
   box-sizing: border-box;
   outline: none;
   box-shadow: none;
@@ -679,7 +679,7 @@ textarea:not(#BigText) {
   color: #eee;
   border: none !important;
   outline: none;
-  padding: 0.5rem 1rem;
+  padding: 5px 10px;
   text-transform: capitalize;
   transition: all 0.2s; }
   .btn:hover {
@@ -689,7 +689,7 @@ textarea:not(#BigText) {
   color: #eeeeee;
   background: rgba(30, 32, 35, 0.9);
   border: none;
-  border-radius: 0.2rem;
+  border-radius: 2px;
   transition: all 0.2s; }
   .morelink a {
     color: goldenrod;
@@ -721,7 +721,7 @@ textarea:not(#BigText) {
 .roundfield {
   background: rgba(30, 32, 35, 0.9);
   border: none;
-  border-radius: 0.2rem; }
+  border-radius: 2px; }
   .roundfield #suggested-reddits {
     display: none; }
   .roundfield input[type='text'],
@@ -749,21 +749,21 @@ textarea:not(#BigText) {
   .tabmenu.formtab a {
     border: none;
     background: none !important;
-    font-size: 1.6rem !important;
+    font-size: 16px !important;
     text-transform: capitalize;
     color: #eeeeee; }
   .tabmenu.formtab .selected a {
-    border-bottom: solid 0.2rem dodgerblue !important;
+    border-bottom: solid 2px dodgerblue !important;
     color: dodgerblue;
     text-transform: capitalize; }
 
 .linkflairlabel {
   background: #555;
   border: none;
-  border-radius: 0.2rem;
+  border-radius: 2px;
   color: #eee;
-  font-size: 1.2rem;
-  padding: 0.2rem 0.5rem;
+  font-size: 12px;
+  padding: 2px 5px;
   overflow: initial; }
 
 .flair {
@@ -771,7 +771,7 @@ textarea:not(#BigText) {
   min-width: 24px;
   width: 24px;
   height: 24px;
-  margin: 0 0.3rem;
+  margin: 0 3px;
   line-height: 24px;
   vertical-align: middle;
   text-align: right;
@@ -780,7 +780,7 @@ textarea:not(#BigText) {
   position: relative;
   transition: all 0.3s;
   overflow: hidden;
-  font-size: 1.2rem;
+  font-size: 12px;
   color: goldenrod !important;
   font-size: 0 !important;
   font-weight: bold;
@@ -835,8 +835,8 @@ textarea:not(#BigText) {
   font-size: x-small !important; }
 
 .stylesheet-customize-container {
-  padding: 2rem;
-  border-radius: 0.2rem;
+  padding: 20px;
+  border-radius: 2px;
   background: rgba(30, 32, 35, 0.9); }
   .stylesheet-customize-container .sheets {
     margin: 0; }
@@ -850,15 +850,15 @@ textarea:not(#BigText) {
 
 .wiki-page > .content > span {
   position: absolute;
-  top: 43.5rem; }
+  top: 435px; }
 
 .wiki-page .wiki-page-content {
   margin: 0;
-  padding: 2rem;
+  padding: 20px;
   background: rgba(30, 32, 35, 0.9); }
   .wiki-page .wiki-page-content .md {
     position: relative;
-    padding-right: 25rem; }
+    padding-right: 250px; }
     .wiki-page .wiki-page-content .md .toc {
       position: absolute;
       right: 0; }
@@ -868,11 +868,11 @@ textarea:not(#BigText) {
       color: deepskyblue; }
 
 body.search-page .side {
-  margin-top: 5rem; }
+  margin-top: 50px; }
 
 body.search-page .searchpane {
   width: 100%;
-  padding: 1rem;
+  padding: 10px;
   margin: 0;
   box-sizing: border-box;
   background: rgba(30, 32, 35, 0.9); }
@@ -885,7 +885,7 @@ body.search-page .searchpane {
 body.search-page .listing {
   background: rgba(30, 32, 35, 0.9); }
   body.search-page .listing .search-result-group {
-    padding: 1rem;
+    padding: 10px;
     max-width: 100%;
     min-width: auto; }
     body.search-page .listing .search-result-group .search-result-group-header {
@@ -896,7 +896,7 @@ body.search-page .listing {
 html:lang(li) body {
   background: url(%%background-dark%%) no-repeat;
   background-size: 100% auto;
-  background-position: 0 -7rem;
+  background-position: 0 -70px;
   background-color: #111111;
   color: #292f34; }
   html:lang(li) body .md:not(#BigPreview) {
@@ -1013,7 +1013,7 @@ body,
 body.res-nightmode {
   background: url(%%background-dark%%) no-repeat;
   background-size: 100% auto;
-  background-position: 0 -7rem;
+  background-position: 0 -70px;
   background-color: #111111;
   color: #eeeeee; }
   body .md:not(#BigPreview),
@@ -1195,8 +1195,8 @@ body.res-nightmode {
 
 .footer-parent {
   background: rgba(30, 32, 35, 0.9);
-  padding-bottom: 2rem;
-  margin-bottom: -1rem; }
+  padding-bottom: 20px;
+  margin-bottom: -10px; }
   .footer-parent .footer {
     border: none;
     text-transform: capitalize; }
