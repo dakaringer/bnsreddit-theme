@@ -1,5 +1,9 @@
 .md:not(#BigPreview) {
     color: $text-color-light;
+
+    pre {
+        background: $ui-color-hover-light;
+    }
 }
 
 .side .titlebox form.flairtoggle,

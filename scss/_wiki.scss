@@ -27,4 +27,14 @@
             }
         }
     }
+
+    .pageactions {
+        .wikiaction:hover {
+            background: none;
+        }
+
+        .wikiaction-current {
+            background-color: dodgerblue;
+        }
+    }
 }
