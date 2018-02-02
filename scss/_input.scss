@@ -11,6 +11,14 @@
     }
 }
 
+.res-commentBoxes .infobar {
+    background-color: transparent !important;
+
+    .commentsignupbar__container {
+        background: none;
+    }
+}
+
 textarea:not(#BigText),
 #sr-autocomplete,
 .input {
