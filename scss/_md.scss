@@ -1,6 +1,11 @@
 .md:not(#BigPreview) {
     color: $text-color-dark;
 
+    code {
+        background: none;
+        white-space: pre-wrap;
+    }
+
     .-lists,
     ul,
     ol {
