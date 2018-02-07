@@ -250,9 +250,7 @@
                 background-position: 0 -40px;
             }
 
-            a[href*='www.bladeandsoul.com'],
-            a[href*='bnstree.com'],
-            a[href*='discordapp.com'] {
+            a[href*='#sidebar'] {
                 display: block;
                 width: calc(100% - 45px);
                 color: goldenrod !important;
