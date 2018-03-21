@@ -12,13 +12,14 @@
 
         a {
             visibility: visible;
-            background: url(%%bns-logo-winter%%) left center no-repeat;
+            background: url(%%bns-logo-bb%%) left center no-repeat;
             text-indent: -9990px;
             position: absolute;
-            left: 120px;
-            width: 400px;
-            height: 200px;
-            bottom: 50px;
+            left: 50%;
+            transform: translate(-50%);
+            width: 420px;
+            height: 300px;
+            top: 30px;
         }
     }
 
